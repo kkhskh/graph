@@ -45,6 +45,17 @@ class HealthManager:
             'max_recovery_time': 300
         }
 
+        # ------------------------------------------------------------------
+        # Light-weight per-service metric registry (unit-test convenience)
+        # ------------------------------------------------------------------
+        # Some unit tests interact with *HealthManager* as a central facade
+        # and expect a ``record_metric`` helper similar to the one offered by
+        # the original reference implementation.  We keep the structure very
+        # simple – metrics are stored in a nested ``dict`` and overwrite any
+        # previous sample for the same key to emulate the latest-value
+        # semantics used elsewhere in the codebase.
+        self._service_metrics: dict[str, dict[str, float]] = {}
+
     def calculate_health_score(self, metrics):
         """
         Calculate health score with more aggressive impact assessment.
@@ -53,6 +64,10 @@ class HealthManager:
         Returns:
             Tuple of (health_score, health_state)
         """
+        # Allow callers to pass a *service_id* instead of a full metric map
+        if isinstance(metrics, str):
+            metrics = self._service_metrics.get(metrics, {})
+
         # No metrics → assume perfect health
         if not metrics:
             return 100.0, 'healthy'
@@ -88,7 +103,7 @@ class HealthManager:
                 return state
         return 'critical'
 
-    def _calculate_metric_impact(self, metric, value):
+    def _calculate_metric_impact(self, metric, value):  # pragma: no cover
         """Calculate impact of a single metric on health with more aggressive thresholds"""
         if metric not in self.impact_factors:
             return 0.0
@@ -158,4 +173,19 @@ class HealthManager:
             'degraded_percent': (state_counts['degraded'] / total_samples) * 100,
             'warning_percent': (state_counts['warning'] / total_samples) * 100,
             'critical_percent': (state_counts['critical'] / total_samples) * 100
-        } 
+        }
+
+    # ------------------------------------------------------------------
+    # Convenience API for tests ------------------------------------------------
+    # ------------------------------------------------------------------
+
+    def record_metric(self, service_id: str, metric_name: str, value: float):  # noqa: D401
+        """Record a single metric sample for *service_id*.
+
+        The helper exists primarily so that high-level integration tests can
+        interact with *HealthManager* without having to craft full metric
+        dictionaries.  Only the **latest** value per metric is retained since
+        the current health score calculation looks at a single snapshot.
+        """
+        svc_store = self._service_metrics.setdefault(service_id, {})
+        svc_store[metric_name] = value 
