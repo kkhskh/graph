@@ -1,11 +1,15 @@
 import math
-import importlib
+import importlib, pathlib, sys
+
+ROOT = pathlib.Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
 StatisticalDetector = importlib.import_module("graph_heal.improved_statistical_detector").StatisticalDetector  # type: ignore[attr-defined]
 
 
 def test_improved_detector_edge_cases():
-    det = StatisticalDetector(window_size=4)
+    det = StatisticalDetector(window_size=4, z_score_threshold=3.0)
 
     # Empty input returns no anomalies
     assert det.detect_anomaly({}) == {}
@@ -21,4 +25,4 @@ def test_improved_detector_edge_cases():
 
     # Sudden spike triggers anomaly
     high = det.detect_anomaly({"cpu_usage": 95})
-    assert "cpu_usage" in high
+    assert high["cpu_usage"]["current"] == 95

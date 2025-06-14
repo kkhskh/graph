@@ -1,5 +1,10 @@
 import networkx as nx
-import importlib
+import importlib, pathlib, sys
+
+# Guarantee project root is on sys.path
+ROOT = pathlib.Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
 # Dynamically resolve ServiceGraph implementation
 ServiceGraph = importlib.import_module("graph_heal.service_graph").ServiceGraph  # type: ignore[attr-defined]

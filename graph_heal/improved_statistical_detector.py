@@ -8,8 +8,9 @@ import logging
 class StatisticalDetector:
     """Improved statistical anomaly detector with adaptive thresholds"""
     
-    def __init__(self, window_size: int = 60):
+    def __init__(self, window_size: int = 60, z_score_threshold: float = 3.0):
         self.window_size = window_size
+        self.z_score_threshold = z_score_threshold
         self.metric_history = {
             'cpu_usage': deque(maxlen=window_size),
             'memory_usage': deque(maxlen=window_size),
@@ -25,7 +26,6 @@ class StatisticalDetector:
         self.adaptive_thresholds = True
         
         # Detection thresholds
-        self.z_score_threshold = 2.5
         self.trend_threshold = 2.0  # 2% per second increase
         self.min_history_size = 30  # Minimum samples needed for detection
         
@@ -36,24 +36,34 @@ class StatisticalDetector:
         """Detect anomalies in service metrics"""
         anomalies = {}
         
-        # Update metric history
-        for metric, value in metrics.items():
-            if metric in self.metric_history:
-                self.metric_history[metric].append(value)
-        
-        # Check each metric for anomalies
-        for metric, values in self.metric_history.items():
+        # --------------------------------------------
+        # 1️⃣ Update history *before* evaluation
+        # --------------------------------------------
+        for metric_name, metric_value in metrics.items():
+            if metric_name not in self.metric_history:
+                self.metric_history[metric_name] = []
+            self.metric_history[metric_name].append(metric_value)
+            values = self.metric_history[metric_name]
+
+            # Need enough samples (current + window-1)
             if len(values) < self.window_size:
                 continue
-            
-            current_value = values[-1]
-            threshold = self._get_threshold(metric, values)
-            
-            if current_value > threshold:
-                anomalies[metric] = {
-                    'value': current_value,
-                    'threshold': threshold,
-                    'severity': self._calculate_severity(current_value, threshold)
+
+            # Baseline – last window excluding current
+            baseline = list(values)[-self.window_size:-1]
+            std = np.std(baseline)
+            if std == 0:
+                # Flat-line; skip until variance emerges
+                continue
+
+            z = abs(values[-1] - np.mean(baseline)) / std
+            if z >= self.z_score_threshold:
+                anomalies[metric_name] = {
+                    "metric_name": metric_name,
+                    "current": values[-1],
+                    "mean": float(np.mean(baseline)),
+                    "std": float(std),
+                    "z": float(z),
                 }
         
         return anomalies
@@ -67,8 +77,8 @@ class StatisticalDetector:
         mean = np.mean(values)
         std = np.std(values)
         
-        # Use 3-sigma rule for normal distribution
-        threshold = mean + (3 * std)
+        # Use configurable sigma rule
+        threshold = mean + (self.z_score_threshold * std)
         
         # Ensure threshold is not below baseline
         return max(threshold, self.thresholds[metric])

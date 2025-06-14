@@ -53,33 +53,29 @@ class HealthManager:
         Returns:
             Tuple of (health_score, health_state)
         """
-        # Start with perfect health
+        # No metrics → assume perfect health
+        if not metrics:
+            return 100.0, 'healthy'
+
+        # Start with perfect health and subtract penalties
         health_score = 100.0
-        
-        # Calculate impact from each metric with more aggressive thresholds
-        if 'service_cpu_usage' in metrics:
-            cpu = metrics['service_cpu_usage']
-            if cpu > 50:     health_score -= 50
-            elif cpu > 35:   health_score -= 30
-            elif cpu > 20:   health_score -= 15
-        
-        if 'service_memory_usage' in metrics:
-            memory = metrics['service_memory_usage']
-            if memory > 50:  health_score -= 40
-            elif memory > 30: health_score -= 20
-        
-        if 'service_response_time' in metrics:
-            latency = metrics['service_response_time']
-            if latency > 0.3: health_score -= 25
-            elif latency > 0.1: health_score -= 10
-        
-        # Add minimal noise
+
+        cpu = metrics.get('service_cpu_usage', 0)
+        mem = metrics.get('service_memory_usage', 0)
+        latency_ms = metrics.get('service_response_time', 0) * 1000 if metrics.get('service_response_time') else metrics.get('latency_ms', 0)
+
+        # Simple heuristic: anything ≤ 70 is considered "free"
+        penalty = (
+            max(0, cpu - 70) +
+            max(0, mem - 70) +
+            max(0, latency_ms - 70) / 10  # convert ms to %
+        )
+
+        health_score -= penalty
+
+        # Clamp and noise
         import random
-        noise = random.gauss(0, 1)  # Reduced noise to ±1%
-        health_score += noise
-        
-        # Ensure score stays within bounds
-        health_score = max(0, min(100, health_score))
+        health_score = max(0, min(100, health_score + random.gauss(0, 1)))
         
         # Determine health state with more aggressive thresholds
         health_state = self._determine_health_state(health_score)
@@ -121,7 +117,7 @@ class HealthManager:
         from datetime import datetime
         recovery_metrics = []
         target_health = 100.0
-        for t in range(duration):
+        for t in range(duration + 1):  # include final tick so progress hits 100%
             progress = t / duration
             target = current_health + (target_health - current_health) * progress
             noise = random.gauss(0, self.recovery_params['recovery_noise'])

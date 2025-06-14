@@ -1,4 +1,9 @@
 import importlib
+import pathlib, sys
+
+ROOT = pathlib.Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
 # Dynamic import – prefer top-level package
 GraphHeal = importlib.import_module("graph_heal.graph_heal").GraphHeal  # type: ignore[attr-defined]
