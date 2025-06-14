@@ -1,0 +1,2792 @@
+[
+  {
+    "timestamp": 1749569775,
+    "service_a": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:15Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:15Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:15Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:15Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569776,
+    "service_a": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:16Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:16Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:16Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:16Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569777,
+    "service_a": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:17Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:17Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:17Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:17Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569778,
+    "service_a": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:18Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:18Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:18Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:18Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569779,
+    "service_a": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:19Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:19Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:19Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:19Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569780,
+    "service_a": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:20Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:20Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:20Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:20Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569781,
+    "service_a": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:21Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:21Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:21Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:21Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569782,
+    "service_a": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:22Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:22Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:22Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:22Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569783,
+    "service_a": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:23Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:23Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:23Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:23Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569784,
+    "service_a": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:24Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:24Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:24Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:24Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569785,
+    "service_a": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:25Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:25Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:25Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:25Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569786,
+    "service_a": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:26Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:26Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:26Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:26Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569787,
+    "service_a": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:27Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:27Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:27Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:27Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569788,
+    "service_a": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:28Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:28Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:28Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:28Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569789,
+    "service_a": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:29Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:29Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:29Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:29Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569790,
+    "service_a": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:30Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:30Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:30Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:30Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569791,
+    "service_a": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:31Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:31Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:31Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:31Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569792,
+    "service_a": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:32Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:32Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:32Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:32Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569793,
+    "service_a": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:33Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:33Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:33Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:33Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569794,
+    "service_a": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:34Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:34Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:34Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:34Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569795,
+    "service_a": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:35Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:35Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:35Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:35Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569796,
+    "service_a": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:36Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:36Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:36Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:36Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569797,
+    "service_a": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:37Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:37Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:37Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:37Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569798,
+    "service_a": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:38Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:38Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:38Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:38Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569799,
+    "service_a": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:39Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:39Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:39Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:39Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569800,
+    "service_a": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:40Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:40Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:40Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:40Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569801,
+    "service_a": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:41Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:41Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:41Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:41Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569802,
+    "service_a": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:42Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:42Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:42Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:42Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569803,
+    "service_a": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:43Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:43Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:43Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:43Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569804,
+    "service_a": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:44Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:44Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:44Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:44Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569805,
+    "service_a": {
+      "status": "unhealthy",
+      "time_iso": "2025-06-10T15:36:45Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:36:45Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:36:45Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:45Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569806,
+    "service_a": {
+      "status": "unhealthy",
+      "time_iso": "2025-06-10T15:36:46Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:36:46Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:36:46Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:46Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569807,
+    "service_a": {
+      "status": "unhealthy",
+      "time_iso": "2025-06-10T15:36:47Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:36:47Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:36:47Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:47Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569808,
+    "service_a": {
+      "status": "unhealthy",
+      "time_iso": "2025-06-10T15:36:48Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:36:48Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:36:48Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:48Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569809,
+    "service_a": {
+      "status": "unhealthy",
+      "time_iso": "2025-06-10T15:36:49Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:36:49Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:36:49Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:49Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569810,
+    "service_a": {
+      "status": "unhealthy",
+      "time_iso": "2025-06-10T15:36:50Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:36:50Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:36:50Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:50Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569811,
+    "service_a": {
+      "status": "unhealthy",
+      "time_iso": "2025-06-10T15:36:51Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:36:51Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:36:51Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:51Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569812,
+    "service_a": {
+      "status": "unhealthy",
+      "time_iso": "2025-06-10T15:36:52Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:36:52Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:36:52Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:52Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569813,
+    "service_a": {
+      "status": "unhealthy",
+      "time_iso": "2025-06-10T15:36:53Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:36:53Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:36:53Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:53Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569814,
+    "service_a": {
+      "status": "unhealthy",
+      "time_iso": "2025-06-10T15:36:54Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:36:54Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:36:54Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:54Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569815,
+    "service_a": {
+      "status": "unhealthy",
+      "time_iso": "2025-06-10T15:36:55Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:36:55Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:36:55Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:55Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569816,
+    "service_a": {
+      "status": "unhealthy",
+      "time_iso": "2025-06-10T15:36:56Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:36:56Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:36:56Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:56Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569817,
+    "service_a": {
+      "status": "unhealthy",
+      "time_iso": "2025-06-10T15:36:57Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:36:57Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:36:57Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:57Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569818,
+    "service_a": {
+      "status": "unhealthy",
+      "time_iso": "2025-06-10T15:36:58Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:36:58Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:36:58Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:58Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569819,
+    "service_a": {
+      "status": "unhealthy",
+      "time_iso": "2025-06-10T15:36:59Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:36:59Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:36:59Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:36:59Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569820,
+    "service_a": {
+      "status": "unhealthy",
+      "time_iso": "2025-06-10T15:37:00Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:37:00Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:37:00Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:00Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569821,
+    "service_a": {
+      "status": "unhealthy",
+      "time_iso": "2025-06-10T15:37:01Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:37:01Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:37:01Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:01Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569822,
+    "service_a": {
+      "status": "unhealthy",
+      "time_iso": "2025-06-10T15:37:02Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:37:02Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:37:02Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:02Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569823,
+    "service_a": {
+      "status": "unhealthy",
+      "time_iso": "2025-06-10T15:37:03Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:37:03Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:37:03Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:03Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569824,
+    "service_a": {
+      "status": "unhealthy",
+      "time_iso": "2025-06-10T15:37:04Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:37:04Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:37:04Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:04Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569825,
+    "service_a": {
+      "status": "unhealthy",
+      "time_iso": "2025-06-10T15:37:05Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:37:05Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:37:05Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:05Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569826,
+    "service_a": {
+      "status": "unhealthy",
+      "time_iso": "2025-06-10T15:37:06Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:37:06Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:37:06Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:06Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569827,
+    "service_a": {
+      "status": "unhealthy",
+      "time_iso": "2025-06-10T15:37:07Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:37:07Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:37:07Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:07Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569828,
+    "service_a": {
+      "status": "unhealthy",
+      "time_iso": "2025-06-10T15:37:08Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:37:08Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:37:08Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:08Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569829,
+    "service_a": {
+      "status": "unhealthy",
+      "time_iso": "2025-06-10T15:37:09Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:37:09Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:37:09Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:09Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569830,
+    "service_a": {
+      "status": "unhealthy",
+      "time_iso": "2025-06-10T15:37:10Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:37:10Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:37:10Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:10Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569831,
+    "service_a": {
+      "status": "unhealthy",
+      "time_iso": "2025-06-10T15:37:11Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:37:11Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:37:11Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:11Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569832,
+    "service_a": {
+      "status": "unhealthy",
+      "time_iso": "2025-06-10T15:37:12Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:37:12Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:37:12Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:12Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569833,
+    "service_a": {
+      "status": "unhealthy",
+      "time_iso": "2025-06-10T15:37:13Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:37:13Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:37:13Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:13Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569834,
+    "service_a": {
+      "status": "unhealthy",
+      "time_iso": "2025-06-10T15:37:14Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:37:14Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "degraded",
+      "time_iso": "2025-06-10T15:37:14Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:14Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569835,
+    "service_a": {
+      "status": "recovering",
+      "time_iso": "2025-06-10T15:37:15Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:15Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:15Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:15Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569836,
+    "service_a": {
+      "status": "recovering",
+      "time_iso": "2025-06-10T15:37:16Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:16Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:16Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:16Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569837,
+    "service_a": {
+      "status": "recovering",
+      "time_iso": "2025-06-10T15:37:17Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:17Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:17Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:17Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569838,
+    "service_a": {
+      "status": "recovering",
+      "time_iso": "2025-06-10T15:37:18Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:18Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:18Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:18Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569839,
+    "service_a": {
+      "status": "recovering",
+      "time_iso": "2025-06-10T15:37:19Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:19Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:19Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:19Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569840,
+    "service_a": {
+      "status": "recovering",
+      "time_iso": "2025-06-10T15:37:20Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:20Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:20Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:20Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569841,
+    "service_a": {
+      "status": "recovering",
+      "time_iso": "2025-06-10T15:37:21Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:21Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:21Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:21Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569842,
+    "service_a": {
+      "status": "recovering",
+      "time_iso": "2025-06-10T15:37:22Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:22Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:22Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:22Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569843,
+    "service_a": {
+      "status": "recovering",
+      "time_iso": "2025-06-10T15:37:23Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:23Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:23Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:23Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569844,
+    "service_a": {
+      "status": "recovering",
+      "time_iso": "2025-06-10T15:37:24Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:24Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:24Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:24Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569845,
+    "service_a": {
+      "status": "recovering",
+      "time_iso": "2025-06-10T15:37:25Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:25Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:25Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:25Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569846,
+    "service_a": {
+      "status": "recovering",
+      "time_iso": "2025-06-10T15:37:26Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:26Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:26Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:26Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569847,
+    "service_a": {
+      "status": "recovering",
+      "time_iso": "2025-06-10T15:37:27Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:27Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:27Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:27Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569848,
+    "service_a": {
+      "status": "recovering",
+      "time_iso": "2025-06-10T15:37:28Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:28Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:28Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:28Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569849,
+    "service_a": {
+      "status": "recovering",
+      "time_iso": "2025-06-10T15:37:29Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:29Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:29Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:29Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569850,
+    "service_a": {
+      "status": "recovering",
+      "time_iso": "2025-06-10T15:37:30Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:30Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:30Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:30Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569851,
+    "service_a": {
+      "status": "recovering",
+      "time_iso": "2025-06-10T15:37:31Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:31Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:31Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:31Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569852,
+    "service_a": {
+      "status": "recovering",
+      "time_iso": "2025-06-10T15:37:32Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:32Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:32Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:32Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569853,
+    "service_a": {
+      "status": "recovering",
+      "time_iso": "2025-06-10T15:37:33Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:33Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:33Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:33Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569854,
+    "service_a": {
+      "status": "recovering",
+      "time_iso": "2025-06-10T15:37:34Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:34Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:34Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:34Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569855,
+    "service_a": {
+      "status": "recovering",
+      "time_iso": "2025-06-10T15:37:35Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:35Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:35Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:35Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569856,
+    "service_a": {
+      "status": "recovering",
+      "time_iso": "2025-06-10T15:37:36Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:36Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:36Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:36Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569857,
+    "service_a": {
+      "status": "recovering",
+      "time_iso": "2025-06-10T15:37:37Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:37Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:37Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:37Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569858,
+    "service_a": {
+      "status": "recovering",
+      "time_iso": "2025-06-10T15:37:38Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:38Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:38Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:38Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569859,
+    "service_a": {
+      "status": "recovering",
+      "time_iso": "2025-06-10T15:37:39Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:39Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:39Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:39Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569860,
+    "service_a": {
+      "status": "recovering",
+      "time_iso": "2025-06-10T15:37:40Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:40Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:40Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:40Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569861,
+    "service_a": {
+      "status": "recovering",
+      "time_iso": "2025-06-10T15:37:41Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:41Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:41Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:41Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569862,
+    "service_a": {
+      "status": "recovering",
+      "time_iso": "2025-06-10T15:37:42Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:42Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:42Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:42Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569863,
+    "service_a": {
+      "status": "recovering",
+      "time_iso": "2025-06-10T15:37:43Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:43Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:43Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:43Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  },
+  {
+    "timestamp": 1749569864,
+    "service_a": {
+      "status": "recovering",
+      "time_iso": "2025-06-10T15:37:44Z",
+      "health": 1.0,
+      "host_cpu": 2.2,
+      "host_memory": 31.84
+    },
+    "service_b": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:44Z",
+      "health": 1.0,
+      "host_cpu": 0.4,
+      "host_memory": 32.24
+    },
+    "service_c": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:44Z",
+      "health": 1.0,
+      "host_cpu": 1.3,
+      "host_memory": 32.21
+    },
+    "service_d": {
+      "status": "critical",
+      "time_iso": "2025-06-10T15:37:44Z",
+      "health": 1.0,
+      "host_cpu": 0.9,
+      "host_memory": 32.04
+    }
+  }
+]

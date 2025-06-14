@@ -1,0 +1,83 @@
+.
+├── GRAPH-HEAL_paper.tex
+├── docker-compose.yml
+├── graph-heal
+│   ├── Dockerfile
+│   ├── README.md
+│   ├── __init__.py
+│   ├── config
+│   │   ├── system_config.json
+│   │   └── test_config.json
+│   ├── data
+│   │   ├── anomalies
+│   │   ├── evaluation
+│   │   ├── fault_injection
+│   │   ├── faults
+│   │   ├── graphs
+│   │   ├── metrics
+│   │   ├── monitoring
+│   │   ├── orchestration
+│   │   ├── pfctl
+│   │   ├── recovery
+│   │   ├── results
+│   │   └── test_scenarios
+│   ├── docker-compose.yml
+│   ├── graph-heal-env
+│   │   ├── bin
+│   │   ├── include
+│   │   ├── lib
+│   │   ├── pyvenv.cfg
+│   │   └── share
+│   ├── graph_heal
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   ├── anomaly_detection.py
+│   │   ├── evaluation.py
+│   │   ├── fault_injection.py
+│   │   ├── fault_localization.py
+│   │   ├── graph_model.py
+│   │   ├── graph_updater.py
+│   │   ├── monitoring.py
+│   │   ├── orchestration.py
+│   │   ├── prometheus_metrics.py
+│   │   ├── recovery.py
+│   │   ├── service_monitor.py
+│   │   └── test_scenarios.py
+│   ├── graph_heal.egg-info
+│   │   ├── PKG-INFO
+│   │   ├── SOURCES.txt
+│   │   ├── dependency_links.txt
+│   │   ├── requires.txt
+│   │   └── top_level.txt
+│   ├── prometheus
+│   │   └── prometheus.yml
+│   ├── prometheus.yml
+│   ├── requirements.txt
+│   ├── scripts
+│   │   ├── analyze_results.py
+│   │   ├── demo.py
+│   │   ├── end_to_end_test.py
+│   │   ├── run_baseline_tests.py
+│   │   ├── run_detection_localization.py
+│   │   ├── run_evaluation.py
+│   │   ├── run_monitoring.py
+│   │   ├── run_system.py
+│   │   ├── start_services.py
+│   │   ├── test_fault_injection.py
+│   │   └── test_graph.py
+│   ├── services
+│   │   ├── service_a
+│   │   ├── service_b
+│   │   ├── service_c
+│   │   └── service_d
+│   ├── setup.py
+│   ├── tests
+│   └── venv
+│       ├── bin
+│       ├── include
+│       ├── lib
+│       ├── pyvenv.cfg
+│       └── share
+└── tree_L3.txt
+
+37 directories, 44 files

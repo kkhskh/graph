@@ -1,0 +1,429 @@
+{
+  "graph_structure": {
+    "single_layer": {
+      "results/cpu_experiment.json": {
+        "accuracy": 0.0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0
+      },
+      "results/memory_experiment.json": {
+        "accuracy": 0.0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0
+      },
+      "results/network_experiment.json": {
+        "accuracy": 0.0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0
+      }
+    },
+    "no_cross_layer_edges": {
+      "results/cpu_experiment.json": {
+        "accuracy": 0.0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0
+      },
+      "results/memory_experiment.json": {
+        "accuracy": 0.0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0
+      },
+      "results/network_experiment.json": {
+        "accuracy": 0.0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0
+      }
+    },
+    "random_graph": {
+      "results/cpu_experiment.json": {
+        "accuracy": 0.0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0
+      },
+      "results/memory_experiment.json": {
+        "accuracy": 0.0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0
+      },
+      "results/network_experiment.json": {
+        "accuracy": 0.0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0
+      }
+    },
+    "static_graph": {
+      "results/cpu_experiment.json": {
+        "accuracy": 0.0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0
+      },
+      "results/memory_experiment.json": {
+        "accuracy": 0.0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0
+      },
+      "results/network_experiment.json": {
+        "accuracy": 0.0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0
+      }
+    }
+  },
+  "detection_algorithm": {
+    "pure_statistical": {
+      "results/cpu_experiment.json": {
+        "accuracy": 100.0,
+        "precision": 0,
+        "recall": 0,
+        "f1_score": 0
+      },
+      "results/memory_experiment.json": {
+        "accuracy": 100.0,
+        "precision": 0,
+        "recall": 0,
+        "f1_score": 0
+      },
+      "results/network_experiment.json": {
+        "accuracy": 100.0,
+        "precision": 0,
+        "recall": 0,
+        "f1_score": 0
+      }
+    },
+    "pure_graph": {
+      "results/cpu_experiment.json": {
+        "accuracy": 0.0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0
+      },
+      "results/memory_experiment.json": {
+        "accuracy": 0.0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0
+      },
+      "results/network_experiment.json": {
+        "accuracy": 0.0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0
+      }
+    },
+    "temporal_only": {
+      "results/cpu_experiment.json": {
+        "accuracy": 100.0,
+        "precision": 0,
+        "recall": 0,
+        "f1_score": 0
+      },
+      "results/memory_experiment.json": {
+        "accuracy": 100.0,
+        "precision": 0,
+        "recall": 0,
+        "f1_score": 0
+      },
+      "results/network_experiment.json": {
+        "accuracy": 100.0,
+        "precision": 0,
+        "recall": 0,
+        "f1_score": 0
+      }
+    },
+    "hybrid_conservative": {
+      "results/cpu_experiment.json": {
+        "accuracy": 0.0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0
+      },
+      "results/memory_experiment.json": {
+        "accuracy": 0.0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0
+      },
+      "results/network_experiment.json": {
+        "accuracy": 0.0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0
+      }
+    },
+    "hybrid_aggressive": {
+      "results/cpu_experiment.json": {
+        "accuracy": 0.0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0
+      },
+      "results/memory_experiment.json": {
+        "accuracy": 0.0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0
+      },
+      "results/network_experiment.json": {
+        "accuracy": 0.0,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0
+      }
+    }
+  },
+  "threshold_sensitivity": {
+    "zscore_0.5": {
+      "results/cpu_experiment.json": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "accuracy": 0.0
+      },
+      "results/memory_experiment.json": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "accuracy": 0.0
+      },
+      "results/network_experiment.json": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "accuracy": 0.0
+      }
+    },
+    "zscore_1.0": {
+      "results/cpu_experiment.json": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "accuracy": 0.0
+      },
+      "results/memory_experiment.json": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "accuracy": 0.0
+      },
+      "results/network_experiment.json": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "accuracy": 0.0
+      }
+    },
+    "zscore_1.5": {
+      "results/cpu_experiment.json": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "accuracy": 0.0
+      },
+      "results/memory_experiment.json": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "accuracy": 0.0
+      },
+      "results/network_experiment.json": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "accuracy": 0.0
+      }
+    },
+    "zscore_2.0": {
+      "results/cpu_experiment.json": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "accuracy": 0.0
+      },
+      "results/memory_experiment.json": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "accuracy": 0.0
+      },
+      "results/network_experiment.json": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "accuracy": 0.0
+      }
+    },
+    "zscore_2.5": {
+      "results/cpu_experiment.json": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "accuracy": 0.0
+      },
+      "results/memory_experiment.json": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "accuracy": 0.0
+      },
+      "results/network_experiment.json": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "accuracy": 0.0
+      }
+    },
+    "zscore_3.0": {
+      "results/cpu_experiment.json": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "accuracy": 0.0
+      },
+      "results/memory_experiment.json": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "accuracy": 0.0
+      },
+      "results/network_experiment.json": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "accuracy": 0.0
+      }
+    },
+    "zscore_3.5": {
+      "results/cpu_experiment.json": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "accuracy": 0.0
+      },
+      "results/memory_experiment.json": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "accuracy": 0.0
+      },
+      "results/network_experiment.json": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "accuracy": 0.0
+      }
+    }
+  },
+  "optimal_configs": {
+    "results/cpu_experiment.json": {
+      "config": null,
+      "f1_score": 0.0
+    },
+    "results/memory_experiment.json": {
+      "config": null,
+      "f1_score": 0.0
+    },
+    "results/network_experiment.json": {
+      "config": null,
+      "f1_score": 0.0
+    }
+  },
+  "recovery_strategy": {
+    "reactive_only": {
+      "results/cpu_experiment.json": {
+        "recovery_time": 1.6218901615055938,
+        "success_rate": 0.7770721662204417,
+        "resource_overhead": 0.283703173187308
+      },
+      "results/memory_experiment.json": {
+        "recovery_time": 3.3456845477307833,
+        "success_rate": 0.7010344996466072,
+        "resource_overhead": 0.26331335370599157
+      },
+      "results/network_experiment.json": {
+        "recovery_time": 4.993663150293344,
+        "success_rate": 0.7449495317007404,
+        "resource_overhead": 0.2902135414167573
+      }
+    },
+    "proactive_only": {
+      "results/cpu_experiment.json": {
+        "recovery_time": 2.2362474417554274,
+        "success_rate": 0.7313060957655321,
+        "resource_overhead": 0.26243226858003144
+      },
+      "results/memory_experiment.json": {
+        "recovery_time": 3.0377143615567146,
+        "success_rate": 0.8908681064454025,
+        "resource_overhead": 0.2276086754347958
+      },
+      "results/network_experiment.json": {
+        "recovery_time": 1.9367053196755517,
+        "success_rate": 0.7137784928377144,
+        "resource_overhead": 0.15069511897235346
+      }
+    },
+    "batch_recovery": {
+      "results/cpu_experiment.json": {
+        "recovery_time": 4.51259323567449,
+        "success_rate": 0.706118118315819,
+        "resource_overhead": 0.1851881435605043
+      },
+      "results/memory_experiment.json": {
+        "recovery_time": 1.3364646769967305,
+        "success_rate": 0.7894307247426157,
+        "resource_overhead": 0.1959663859818558
+      },
+      "results/network_experiment.json": {
+        "recovery_time": 2.3702567680654476,
+        "success_rate": 0.8886643113181875,
+        "resource_overhead": 0.1220318927625208
+      }
+    },
+    "dependency_unaware": {
+      "results/cpu_experiment.json": {
+        "recovery_time": 2.799058766566287,
+        "success_rate": 0.8908643348757754,
+        "resource_overhead": 0.2750995722651435
+      },
+      "results/memory_experiment.json": {
+        "recovery_time": 2.122714262862331,
+        "success_rate": 0.7329661167721125,
+        "resource_overhead": 0.22725777776682873
+      },
+      "results/network_experiment.json": {
+        "recovery_time": 2.936278557305517,
+        "success_rate": 0.7603128694294147,
+        "resource_overhead": 0.2183437625989138
+      }
+    },
+    "graph_guided": {
+      "results/cpu_experiment.json": {
+        "recovery_time": 1.6355968918524888,
+        "success_rate": 0.7959653932577015,
+        "resource_overhead": 0.20700243800106435
+      },
+      "results/memory_experiment.json": {
+        "recovery_time": 3.5031584673956293,
+        "success_rate": 0.7082686181408621,
+        "resource_overhead": 0.11676455719362802
+      },
+      "results/network_experiment.json": {
+        "recovery_time": 4.837574809687231,
+        "success_rate": 0.7563990506774838,
+        "resource_overhead": 0.11379397774418154
+      }
+    }
+  }
+}

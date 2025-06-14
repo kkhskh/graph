@@ -1,0 +1,92 @@
+{
+  "cpu_experiment": {
+    "old_version": {
+      "threshold_based": {
+        "precision": 100.0,
+        "recall": 86.90476190476191,
+        "f1_score": 92.99363057324841,
+        "accuracy": 96.29629629629629
+      },
+      "graph_heal": {
+        "precision": 100.0,
+        "recall": 40.909090909090914,
+        "f1_score": 58.06451612903226,
+        "accuracy": 78.11447811447812
+      }
+    },
+    "new_version": {
+      "threshold_based": {
+        "precision": 100.0,
+        "recall": 75.29411764705883,
+        "f1_score": 85.90604026845638,
+        "accuracy": 92.92929292929293
+      },
+      "graph_heal": {
+        "precision": 100.0,
+        "recall": 42.47787610619469,
+        "f1_score": 59.62732919254658,
+        "accuracy": 78.11447811447812
+      }
+    }
+  },
+  "memory_experiment": {
+    "old_version": {
+      "threshold_based": {
+        "precision": 100.0,
+        "recall": 90.47619047619048,
+        "f1_score": 95.0,
+        "accuracy": 97.74011299435028
+      },
+      "graph_heal": {
+        "precision": 100.0,
+        "recall": 63.1578947368421,
+        "f1_score": 77.41935483870968,
+        "accuracy": 88.13559322033898
+      }
+    },
+    "new_version": {
+      "threshold_based": {
+        "precision": 100.0,
+        "recall": 88.09523809523809,
+        "f1_score": 93.67088607594937,
+        "accuracy": 97.17514124293785
+      },
+      "graph_heal": {
+        "precision": 100.0,
+        "recall": 63.1578947368421,
+        "f1_score": 77.41935483870968,
+        "accuracy": 88.13559322033898
+      }
+    }
+  },
+  "network_experiment": {
+    "old_version": {
+      "threshold_based": {
+        "precision": 100.0,
+        "recall": 94.79166666666666,
+        "f1_score": 97.32620320855615,
+        "accuracy": 97.8902953586498
+      },
+      "graph_heal": {
+        "precision": 100.0,
+        "recall": 18.181818181818183,
+        "f1_score": 30.76923076923077,
+        "accuracy": 58.22784810126582
+      }
+    },
+    "new_version": {
+      "threshold_based": {
+        "precision": 100.0,
+        "recall": 84.78260869565217,
+        "f1_score": 91.76470588235294,
+        "accuracy": 94.09282700421942
+      },
+      "graph_heal": {
+        "precision": 100.0,
+        "recall": 100.0,
+        "f1_score": 100.0,
+        "accuracy": 100.0
+      }
+    }
+  }
+}

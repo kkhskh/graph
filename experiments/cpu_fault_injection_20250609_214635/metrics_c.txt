@@ -1,0 +1,144 @@
+1749487595 # HELP service_cpu_usage CPU usage in percentage
+1749487595 # TYPE service_cpu_usage gauge
+1749487595 service_cpu_usage 5.4
+1749487595 # HELP service_circuit_breaker_state Circuit breaker state (0=closed, 1=open)
+1749487595 # TYPE service_circuit_breaker_state gauge
+1749487595 service_circuit_breaker_state 0.0
+1749487595 # HELP service_health Service health status (1.0=healthy, 0.7=warning, 0.4=degraded, 0.1=critical)
+1749487595 # TYPE service_health gauge
+1749487595 service_health 1.0
+1749487595 # HELP service_latency_seconds 95th percentile request latency in seconds
+1749487595 # TYPE service_latency_seconds gauge
+1749487595 service_latency_seconds 0.05
+1749487600 # HELP service_cpu_usage CPU usage in percentage
+1749487600 # TYPE service_cpu_usage gauge
+1749487600 service_cpu_usage 16.7
+1749487600 # HELP service_circuit_breaker_state Circuit breaker state (0=closed, 1=open)
+1749487600 # TYPE service_circuit_breaker_state gauge
+1749487600 service_circuit_breaker_state 0.0
+1749487600 # HELP service_health Service health status (1.0=healthy, 0.7=warning, 0.4=degraded, 0.1=critical)
+1749487600 # TYPE service_health gauge
+1749487600 service_health 1.0
+1749487600 # HELP service_latency_seconds 95th percentile request latency in seconds
+1749487600 # TYPE service_latency_seconds gauge
+1749487600 service_latency_seconds 0.05
+1749487606 # HELP service_cpu_usage CPU usage in percentage
+1749487606 # TYPE service_cpu_usage gauge
+1749487606 service_cpu_usage 12.7
+1749487606 # HELP service_circuit_breaker_state Circuit breaker state (0=closed, 1=open)
+1749487606 # TYPE service_circuit_breaker_state gauge
+1749487606 service_circuit_breaker_state 0.0
+1749487606 # HELP service_health Service health status (1.0=healthy, 0.7=warning, 0.4=degraded, 0.1=critical)
+1749487606 # TYPE service_health gauge
+1749487606 service_health 1.0
+1749487606 # HELP service_latency_seconds 95th percentile request latency in seconds
+1749487606 # TYPE service_latency_seconds gauge
+1749487606 service_latency_seconds 0.1
+1749487611 # HELP service_cpu_usage CPU usage in percentage
+1749487611 # TYPE service_cpu_usage gauge
+1749487611 service_cpu_usage 12.9
+1749487611 # HELP service_circuit_breaker_state Circuit breaker state (0=closed, 1=open)
+1749487611 # TYPE service_circuit_breaker_state gauge
+1749487611 service_circuit_breaker_state 0.0
+1749487611 # HELP service_health Service health status (1.0=healthy, 0.7=warning, 0.4=degraded, 0.1=critical)
+1749487611 # TYPE service_health gauge
+1749487611 service_health 1.0
+1749487611 # HELP service_latency_seconds 95th percentile request latency in seconds
+1749487611 # TYPE service_latency_seconds gauge
+1749487611 service_latency_seconds 0.2
+1749487617 # HELP service_cpu_usage CPU usage in percentage
+1749487617 # TYPE service_cpu_usage gauge
+1749487617 service_cpu_usage 13.1
+1749487617 # HELP service_circuit_breaker_state Circuit breaker state (0=closed, 1=open)
+1749487617 # TYPE service_circuit_breaker_state gauge
+1749487617 service_circuit_breaker_state 0.0
+1749487617 # HELP service_health Service health status (1.0=healthy, 0.7=warning, 0.4=degraded, 0.1=critical)
+1749487617 # TYPE service_health gauge
+1749487617 service_health 1.0
+1749487617 # HELP service_latency_seconds 95th percentile request latency in seconds
+1749487617 # TYPE service_latency_seconds gauge
+1749487617 service_latency_seconds 0.2
+1749487622 # HELP service_cpu_usage CPU usage in percentage
+1749487622 # TYPE service_cpu_usage gauge
+1749487622 service_cpu_usage 12.6
+1749487622 # HELP service_circuit_breaker_state Circuit breaker state (0=closed, 1=open)
+1749487622 # TYPE service_circuit_breaker_state gauge
+1749487622 service_circuit_breaker_state 0.0
+1749487622 # HELP service_health Service health status (1.0=healthy, 0.7=warning, 0.4=degraded, 0.1=critical)
+1749487622 # TYPE service_health gauge
+1749487622 service_health 1.0
+1749487622 # HELP service_latency_seconds 95th percentile request latency in seconds
+1749487622 # TYPE service_latency_seconds gauge
+1749487622 service_latency_seconds 0.2
+1749487628 # HELP service_cpu_usage CPU usage in percentage
+1749487628 # TYPE service_cpu_usage gauge
+1749487628 service_cpu_usage 28.0
+1749487628 # HELP service_circuit_breaker_state Circuit breaker state (0=closed, 1=open)
+1749487628 # TYPE service_circuit_breaker_state gauge
+1749487628 service_circuit_breaker_state 0.0
+1749487628 # HELP service_health Service health status (1.0=healthy, 0.7=warning, 0.4=degraded, 0.1=critical)
+1749487628 # TYPE service_health gauge
+1749487628 service_health 1.0
+1749487628 # HELP service_latency_seconds 95th percentile request latency in seconds
+1749487628 # TYPE service_latency_seconds gauge
+1749487628 service_latency_seconds 0.2
+1749487633 # HELP service_cpu_usage CPU usage in percentage
+1749487633 # TYPE service_cpu_usage gauge
+1749487633 service_cpu_usage 5.5
+1749487633 # HELP service_circuit_breaker_state Circuit breaker state (0=closed, 1=open)
+1749487633 # TYPE service_circuit_breaker_state gauge
+1749487633 service_circuit_breaker_state 0.0
+1749487633 # HELP service_health Service health status (1.0=healthy, 0.7=warning, 0.4=degraded, 0.1=critical)
+1749487633 # TYPE service_health gauge
+1749487633 service_health 1.0
+1749487633 # HELP service_latency_seconds 95th percentile request latency in seconds
+1749487633 # TYPE service_latency_seconds gauge
+1749487633 service_latency_seconds 0.2
+1749487638 # HELP service_cpu_usage CPU usage in percentage
+1749487638 # TYPE service_cpu_usage gauge
+1749487638 service_cpu_usage 1.2
+1749487638 # HELP service_circuit_breaker_state Circuit breaker state (0=closed, 1=open)
+1749487638 # TYPE service_circuit_breaker_state gauge
+1749487638 service_circuit_breaker_state 0.0
+1749487638 # HELP service_health Service health status (1.0=healthy, 0.7=warning, 0.4=degraded, 0.1=critical)
+1749487638 # TYPE service_health gauge
+1749487638 service_health 1.0
+1749487638 # HELP service_latency_seconds 95th percentile request latency in seconds
+1749487638 # TYPE service_latency_seconds gauge
+1749487638 service_latency_seconds 0.2
+1749487644 # HELP service_cpu_usage CPU usage in percentage
+1749487644 # TYPE service_cpu_usage gauge
+1749487644 service_cpu_usage 1.3
+1749487644 # HELP service_circuit_breaker_state Circuit breaker state (0=closed, 1=open)
+1749487644 # TYPE service_circuit_breaker_state gauge
+1749487644 service_circuit_breaker_state 0.0
+1749487644 # HELP service_health Service health status (1.0=healthy, 0.7=warning, 0.4=degraded, 0.1=critical)
+1749487644 # TYPE service_health gauge
+1749487644 service_health 1.0
+1749487644 # HELP service_latency_seconds 95th percentile request latency in seconds
+1749487644 # TYPE service_latency_seconds gauge
+1749487644 service_latency_seconds 0.2
+1749487649 # HELP service_cpu_usage CPU usage in percentage
+1749487649 # TYPE service_cpu_usage gauge
+1749487649 service_cpu_usage 0.3
+1749487649 # HELP service_circuit_breaker_state Circuit breaker state (0=closed, 1=open)
+1749487649 # TYPE service_circuit_breaker_state gauge
+1749487649 service_circuit_breaker_state 0.0
+1749487649 # HELP service_health Service health status (1.0=healthy, 0.7=warning, 0.4=degraded, 0.1=critical)
+1749487649 # TYPE service_health gauge
+1749487649 service_health 1.0
+1749487649 # HELP service_latency_seconds 95th percentile request latency in seconds
+1749487649 # TYPE service_latency_seconds gauge
+1749487649 service_latency_seconds 0.2
+1749487654 # HELP service_cpu_usage CPU usage in percentage
+1749487654 # TYPE service_cpu_usage gauge
+1749487654 service_cpu_usage 2.1
+1749487654 # HELP service_circuit_breaker_state Circuit breaker state (0=closed, 1=open)
+1749487654 # TYPE service_circuit_breaker_state gauge
+1749487654 service_circuit_breaker_state 0.0
+1749487654 # HELP service_health Service health status (1.0=healthy, 0.7=warning, 0.4=degraded, 0.1=critical)
+1749487654 # TYPE service_health gauge
+1749487654 service_health 1.0
+1749487654 # HELP service_latency_seconds 95th percentile request latency in seconds
+1749487654 # TYPE service_latency_seconds gauge
+1749487654 service_latency_seconds 0.2

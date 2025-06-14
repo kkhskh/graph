@@ -1,0 +1,12 @@
+{
+  "detection_accuracy": 0.18,
+  "false_positive_rate": 0.0,
+  "detection_time": 6,
+  "recovery_time": 19,
+  "health_states": {
+    "healthy": 76.66666666666667,
+    "degraded": 23.333333333333332,
+    "warning": 0.0,
+    "critical": 0.0
+  }
+}

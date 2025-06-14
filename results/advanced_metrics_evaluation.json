@@ -1,0 +1,96 @@
+{
+  "cross_layer_detection": [
+    {
+      "single_layer_detection": {
+        "detects_host_cpu_issue": false,
+        "correlates_to_service_degradation": false,
+        "correlates_to_network_routing": false
+      },
+      "multi_layer_graph_heal": {
+        "detects_host_cpu_issue": false,
+        "correlates_to_service_degradation": false,
+        "correlates_to_network_routing": false,
+        "predicts_downstream_effects": false
+      }
+    }
+  ],
+  "cascading_failure_prediction": [
+    0.0
+  ],
+  "false_root_cause_rate": [],
+  "multi_hop_localization": [],
+  "propagation_accuracy": [
+    1.0
+  ],
+  "propagation_delay": [],
+  "root_cause_accuracy": [
+    1.0
+  ],
+  "dependency_aware_detection": [
+    1.0
+  ],
+  "localization_time": [
+    0.0
+  ],
+  "dependency_aware_precision": [
+    1.0
+  ],
+  "isolation_effectiveness": [
+    1.0
+  ],
+  "propagation_analysis": [
+    {
+      "statistical_only": {
+        "detects_service_a_fault": true,
+        "detects_service_b_degradation": false,
+        "detects_service_c_degradation": false,
+        "identifies_root_cause": false
+      },
+      "graph_heal": {
+        "detects_service_a_fault": true,
+        "detects_service_b_degradation": true,
+        "detects_service_c_degradation": true,
+        "identifies_root_cause": true,
+        "estimates_propagation_delay": 0.0
+      }
+    }
+  ],
+  "intelligent_recovery": [
+    {
+      "simple_recovery": {
+        "action": "restart_all_services",
+        "recovery_time": 45.0,
+        "service_interruption": "high"
+      },
+      "graph_based_recovery": {
+        "action": "isolate_service_a + circuit_breaker_service_b_to_service_a + circuit_breaker_service_c_to_service_a + circuit_breaker_service_d_to_service_a",
+        "recovery_time": 12.0,
+        "service_interruption": "minimal",
+        "prevents_cascading": true
+      }
+    }
+  ],
+  "detection_comparison": [
+    {
+      "statistical_only": {
+        "detection_accuracy": 1.0,
+        "localization_accuracy": 0.0,
+        "recovery_effectiveness": 0.5,
+        "false_positives": 0,
+        "missed_propagations": 0,
+        "recovery_time": 45.0
+      },
+      "graph_heal": {
+        "detection_accuracy": 1.0,
+        "localization_accuracy": 1.0,
+        "recovery_effectiveness": 0.9,
+        "false_positives": 0,
+        "missed_propagations": 0,
+        "recovery_time": 12.0
+      }
+    }
+  ],
+  "evaluation_time": [
+    0.005527
+  ]
+}

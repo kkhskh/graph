@@ -1,0 +1,61 @@
+{
+  "propagation_analysis": {
+    "statistical_only": {
+      "detects_service_a_fault": false,
+      "detects_service_b_degradation": false,
+      "detects_service_c_degradation": false,
+      "identifies_root_cause": false
+    },
+    "graph_heal": {
+      "detects_service_a_fault": false,
+      "detects_service_b_degradation": false,
+      "detects_service_c_degradation": false,
+      "identifies_root_cause": false,
+      "estimates_propagation_delay": 0.0
+    }
+  },
+  "cross_layer_detection": {
+    "single_layer_detection": {
+      "detects_host_cpu_issue": false,
+      "correlates_to_service_degradation": false,
+      "correlates_to_network_routing": false
+    },
+    "multi_layer_graph_heal": {
+      "detects_host_cpu_issue": false,
+      "correlates_to_service_degradation": false,
+      "correlates_to_network_routing": false,
+      "predicts_downstream_effects": false
+    }
+  },
+  "intelligent_recovery": {
+    "simple_recovery": {
+      "action": "restart_all_services",
+      "recovery_time": 45.0,
+      "service_interruption": "high"
+    },
+    "graph_based_recovery": {
+      "action": "",
+      "recovery_time": 0.0,
+      "service_interruption": "minimal",
+      "prevents_cascading": false
+    }
+  },
+  "detection_comparison": {
+    "statistical_only": {
+      "detection_accuracy": 0.0,
+      "localization_accuracy": 0.0,
+      "recovery_effectiveness": 0.0,
+      "false_positives": 0,
+      "missed_propagations": 0,
+      "recovery_time": 45.0
+    },
+    "graph_heal": {
+      "detection_accuracy": 0.0,
+      "localization_accuracy": 0.0,
+      "recovery_effectiveness": 0.0,
+      "false_positives": 0,
+      "missed_propagations": 0,
+      "recovery_time": 0.0
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "cpu_experiment": {
+    "threshold_based": {
+      "precision": 100.0,
+      "recall": 21.548821548821547,
+      "f1_score": 35.45706371191136,
+      "accuracy": 21.548821548821547
+    },
+    "graph_heal": {
+      "precision": 0,
+      "recall": 0.0,
+      "f1_score": 0,
+      "accuracy": 0.0
+    }
+  },
+  "memory_experiment": {
+    "threshold_based": {
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "accuracy": 79.09604519774011
+    },
+    "graph_heal": {
+      "precision": 0,
+      "recall": 0,
+      "f1_score": 0,
+      "accuracy": 100.0
+    }
+  },
+  "network_experiment": {
+    "threshold_based": {
+      "precision": 0.0,
+      "recall": 0,
+      "f1_score": 0,
+      "accuracy": 67.08860759493672
+    },
+    "graph_heal": {
+      "precision": 0,
+      "recall": 0,
+      "f1_score": 0,
+      "accuracy": 100.0
+    }
+  }
+}

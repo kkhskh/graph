@@ -1,0 +1,2119 @@
+{
+  "experiment_name": "cpu_experiment_3",
+  "fault_type": "cpu",
+  "pattern": "oscillating",
+  "duration": 300,
+  "intensity": 1.5,
+  "timestamps": [
+    "2025-05-31T01:22:18.283812",
+    "2025-05-31T01:22:19.283812",
+    "2025-05-31T01:22:20.283812",
+    "2025-05-31T01:22:21.283812",
+    "2025-05-31T01:22:22.283812",
+    "2025-05-31T01:22:23.283812",
+    "2025-05-31T01:22:24.283812",
+    "2025-05-31T01:22:25.283812",
+    "2025-05-31T01:22:26.283812",
+    "2025-05-31T01:22:27.283812",
+    "2025-05-31T01:22:28.283812",
+    "2025-05-31T01:22:29.283812",
+    "2025-05-31T01:22:30.283812",
+    "2025-05-31T01:22:31.283812",
+    "2025-05-31T01:22:32.283812",
+    "2025-05-31T01:22:33.283812",
+    "2025-05-31T01:22:34.283812",
+    "2025-05-31T01:22:35.283812",
+    "2025-05-31T01:22:36.283812",
+    "2025-05-31T01:22:37.283812",
+    "2025-05-31T01:22:38.283812",
+    "2025-05-31T01:22:39.283812",
+    "2025-05-31T01:22:40.283812",
+    "2025-05-31T01:22:41.283812",
+    "2025-05-31T01:22:42.283812",
+    "2025-05-31T01:22:43.283812",
+    "2025-05-31T01:22:44.283812",
+    "2025-05-31T01:22:45.283812",
+    "2025-05-31T01:22:46.283812",
+    "2025-05-31T01:22:47.283812",
+    "2025-05-31T01:22:48.283812",
+    "2025-05-31T01:22:49.283812",
+    "2025-05-31T01:22:50.283812",
+    "2025-05-31T01:22:51.283812",
+    "2025-05-31T01:22:52.283812",
+    "2025-05-31T01:22:53.283812",
+    "2025-05-31T01:22:54.283812",
+    "2025-05-31T01:22:55.283812",
+    "2025-05-31T01:22:56.283812",
+    "2025-05-31T01:22:57.283812",
+    "2025-05-31T01:22:58.283812",
+    "2025-05-31T01:22:59.283812",
+    "2025-05-31T01:23:00.283812",
+    "2025-05-31T01:23:01.283812",
+    "2025-05-31T01:23:02.283812",
+    "2025-05-31T01:23:03.283812",
+    "2025-05-31T01:23:04.283812",
+    "2025-05-31T01:23:05.283812",
+    "2025-05-31T01:23:06.283812",
+    "2025-05-31T01:23:07.283812",
+    "2025-05-31T01:23:08.283812",
+    "2025-05-31T01:23:09.283812",
+    "2025-05-31T01:23:10.283812",
+    "2025-05-31T01:23:11.283812",
+    "2025-05-31T01:23:12.283812",
+    "2025-05-31T01:23:13.283812",
+    "2025-05-31T01:23:14.283812",
+    "2025-05-31T01:23:15.283812",
+    "2025-05-31T01:23:16.283812",
+    "2025-05-31T01:23:17.283812",
+    "2025-05-31T01:23:18.283812",
+    "2025-05-31T01:23:19.283812",
+    "2025-05-31T01:23:20.283812",
+    "2025-05-31T01:23:21.283812",
+    "2025-05-31T01:23:22.283812",
+    "2025-05-31T01:23:23.283812",
+    "2025-05-31T01:23:24.283812",
+    "2025-05-31T01:23:25.283812",
+    "2025-05-31T01:23:26.283812",
+    "2025-05-31T01:23:27.283812",
+    "2025-05-31T01:23:28.283812",
+    "2025-05-31T01:23:29.283812",
+    "2025-05-31T01:23:30.283812",
+    "2025-05-31T01:23:31.283812",
+    "2025-05-31T01:23:32.283812",
+    "2025-05-31T01:23:33.283812",
+    "2025-05-31T01:23:34.283812",
+    "2025-05-31T01:23:35.283812",
+    "2025-05-31T01:23:36.283812",
+    "2025-05-31T01:23:37.283812",
+    "2025-05-31T01:23:38.283812",
+    "2025-05-31T01:23:39.283812",
+    "2025-05-31T01:23:40.283812",
+    "2025-05-31T01:23:41.283812",
+    "2025-05-31T01:23:42.283812",
+    "2025-05-31T01:23:43.283812",
+    "2025-05-31T01:23:44.283812",
+    "2025-05-31T01:23:45.283812",
+    "2025-05-31T01:23:46.283812",
+    "2025-05-31T01:23:47.283812",
+    "2025-05-31T01:23:48.283812",
+    "2025-05-31T01:23:49.283812",
+    "2025-05-31T01:23:50.283812",
+    "2025-05-31T01:23:51.283812",
+    "2025-05-31T01:23:52.283812",
+    "2025-05-31T01:23:53.283812",
+    "2025-05-31T01:23:54.283812",
+    "2025-05-31T01:23:55.283812",
+    "2025-05-31T01:23:56.283812",
+    "2025-05-31T01:23:57.283812",
+    "2025-05-31T01:23:58.283812",
+    "2025-05-31T01:23:59.283812",
+    "2025-05-31T01:24:00.283812",
+    "2025-05-31T01:24:01.283812",
+    "2025-05-31T01:24:02.283812",
+    "2025-05-31T01:24:03.283812",
+    "2025-05-31T01:24:04.283812",
+    "2025-05-31T01:24:05.283812",
+    "2025-05-31T01:24:06.283812",
+    "2025-05-31T01:24:07.283812",
+    "2025-05-31T01:24:08.283812",
+    "2025-05-31T01:24:09.283812",
+    "2025-05-31T01:24:10.283812",
+    "2025-05-31T01:24:11.283812",
+    "2025-05-31T01:24:12.283812",
+    "2025-05-31T01:24:13.283812",
+    "2025-05-31T01:24:14.283812",
+    "2025-05-31T01:24:15.283812",
+    "2025-05-31T01:24:16.283812",
+    "2025-05-31T01:24:17.283812",
+    "2025-05-31T01:24:18.283812",
+    "2025-05-31T01:24:19.283812",
+    "2025-05-31T01:24:20.283812",
+    "2025-05-31T01:24:21.283812",
+    "2025-05-31T01:24:22.283812",
+    "2025-05-31T01:24:23.283812",
+    "2025-05-31T01:24:24.283812",
+    "2025-05-31T01:24:25.283812",
+    "2025-05-31T01:24:26.283812",
+    "2025-05-31T01:24:27.283812",
+    "2025-05-31T01:24:28.283812",
+    "2025-05-31T01:24:29.283812",
+    "2025-05-31T01:24:30.283812",
+    "2025-05-31T01:24:31.283812",
+    "2025-05-31T01:24:32.283812",
+    "2025-05-31T01:24:33.283812",
+    "2025-05-31T01:24:34.283812",
+    "2025-05-31T01:24:35.283812",
+    "2025-05-31T01:24:36.283812",
+    "2025-05-31T01:24:37.283812",
+    "2025-05-31T01:24:38.283812",
+    "2025-05-31T01:24:39.283812",
+    "2025-05-31T01:24:40.283812",
+    "2025-05-31T01:24:41.283812",
+    "2025-05-31T01:24:42.283812",
+    "2025-05-31T01:24:43.283812",
+    "2025-05-31T01:24:44.283812",
+    "2025-05-31T01:24:45.283812",
+    "2025-05-31T01:24:46.283812",
+    "2025-05-31T01:24:47.283812",
+    "2025-05-31T01:24:48.283812",
+    "2025-05-31T01:24:49.283812",
+    "2025-05-31T01:24:50.283812",
+    "2025-05-31T01:24:51.283812",
+    "2025-05-31T01:24:52.283812",
+    "2025-05-31T01:24:53.283812",
+    "2025-05-31T01:24:54.283812",
+    "2025-05-31T01:24:55.283812",
+    "2025-05-31T01:24:56.283812",
+    "2025-05-31T01:24:57.283812",
+    "2025-05-31T01:24:58.283812",
+    "2025-05-31T01:24:59.283812",
+    "2025-05-31T01:25:00.283812",
+    "2025-05-31T01:25:01.283812",
+    "2025-05-31T01:25:02.283812",
+    "2025-05-31T01:25:03.283812",
+    "2025-05-31T01:25:04.283812",
+    "2025-05-31T01:25:05.283812",
+    "2025-05-31T01:25:06.283812",
+    "2025-05-31T01:25:07.283812",
+    "2025-05-31T01:25:08.283812",
+    "2025-05-31T01:25:09.283812",
+    "2025-05-31T01:25:10.283812",
+    "2025-05-31T01:25:11.283812",
+    "2025-05-31T01:25:12.283812",
+    "2025-05-31T01:25:13.283812",
+    "2025-05-31T01:25:14.283812",
+    "2025-05-31T01:25:15.283812",
+    "2025-05-31T01:25:16.283812",
+    "2025-05-31T01:25:17.283812",
+    "2025-05-31T01:25:18.283812",
+    "2025-05-31T01:25:19.283812",
+    "2025-05-31T01:25:20.283812",
+    "2025-05-31T01:25:21.283812",
+    "2025-05-31T01:25:22.283812",
+    "2025-05-31T01:25:23.283812",
+    "2025-05-31T01:25:24.283812",
+    "2025-05-31T01:25:25.283812",
+    "2025-05-31T01:25:26.283812",
+    "2025-05-31T01:25:27.283812",
+    "2025-05-31T01:25:28.283812",
+    "2025-05-31T01:25:29.283812",
+    "2025-05-31T01:25:30.283812",
+    "2025-05-31T01:25:31.283812",
+    "2025-05-31T01:25:32.283812",
+    "2025-05-31T01:25:33.283812",
+    "2025-05-31T01:25:34.283812",
+    "2025-05-31T01:25:35.283812",
+    "2025-05-31T01:25:36.283812",
+    "2025-05-31T01:25:37.283812",
+    "2025-05-31T01:25:38.283812",
+    "2025-05-31T01:25:39.283812",
+    "2025-05-31T01:25:40.283812",
+    "2025-05-31T01:25:41.283812",
+    "2025-05-31T01:25:42.283812",
+    "2025-05-31T01:25:43.283812",
+    "2025-05-31T01:25:44.283812",
+    "2025-05-31T01:25:45.283812",
+    "2025-05-31T01:25:46.283812",
+    "2025-05-31T01:25:47.283812",
+    "2025-05-31T01:25:48.283812",
+    "2025-05-31T01:25:49.283812",
+    "2025-05-31T01:25:50.283812",
+    "2025-05-31T01:25:51.283812",
+    "2025-05-31T01:25:52.283812",
+    "2025-05-31T01:25:53.283812",
+    "2025-05-31T01:25:54.283812",
+    "2025-05-31T01:25:55.283812",
+    "2025-05-31T01:25:56.283812",
+    "2025-05-31T01:25:57.283812",
+    "2025-05-31T01:25:58.283812",
+    "2025-05-31T01:25:59.283812",
+    "2025-05-31T01:26:00.283812",
+    "2025-05-31T01:26:01.283812",
+    "2025-05-31T01:26:02.283812",
+    "2025-05-31T01:26:03.283812",
+    "2025-05-31T01:26:04.283812",
+    "2025-05-31T01:26:05.283812",
+    "2025-05-31T01:26:06.283812",
+    "2025-05-31T01:26:07.283812",
+    "2025-05-31T01:26:08.283812",
+    "2025-05-31T01:26:09.283812",
+    "2025-05-31T01:26:10.283812",
+    "2025-05-31T01:26:11.283812",
+    "2025-05-31T01:26:12.283812",
+    "2025-05-31T01:26:13.283812",
+    "2025-05-31T01:26:14.283812",
+    "2025-05-31T01:26:15.283812",
+    "2025-05-31T01:26:16.283812",
+    "2025-05-31T01:26:17.283812",
+    "2025-05-31T01:26:18.283812",
+    "2025-05-31T01:26:19.283812",
+    "2025-05-31T01:26:20.283812",
+    "2025-05-31T01:26:21.283812",
+    "2025-05-31T01:26:22.283812",
+    "2025-05-31T01:26:23.283812",
+    "2025-05-31T01:26:24.283812",
+    "2025-05-31T01:26:25.283812",
+    "2025-05-31T01:26:26.283812",
+    "2025-05-31T01:26:27.283812",
+    "2025-05-31T01:26:28.283812",
+    "2025-05-31T01:26:29.283812",
+    "2025-05-31T01:26:30.283812",
+    "2025-05-31T01:26:31.283812",
+    "2025-05-31T01:26:32.283812",
+    "2025-05-31T01:26:33.283812",
+    "2025-05-31T01:26:34.283812",
+    "2025-05-31T01:26:35.283812",
+    "2025-05-31T01:26:36.283812",
+    "2025-05-31T01:26:37.283812",
+    "2025-05-31T01:26:38.283812",
+    "2025-05-31T01:26:39.283812",
+    "2025-05-31T01:26:40.283812",
+    "2025-05-31T01:26:41.283812",
+    "2025-05-31T01:26:42.283812",
+    "2025-05-31T01:26:43.283812",
+    "2025-05-31T01:26:44.283812",
+    "2025-05-31T01:26:45.283812",
+    "2025-05-31T01:26:46.283812",
+    "2025-05-31T01:26:47.283812",
+    "2025-05-31T01:26:48.283812",
+    "2025-05-31T01:26:49.283812",
+    "2025-05-31T01:26:50.283812",
+    "2025-05-31T01:26:51.283812",
+    "2025-05-31T01:26:52.283812",
+    "2025-05-31T01:26:53.283812",
+    "2025-05-31T01:26:54.283812",
+    "2025-05-31T01:26:55.283812",
+    "2025-05-31T01:26:56.283812",
+    "2025-05-31T01:26:57.283812",
+    "2025-05-31T01:26:58.283812",
+    "2025-05-31T01:26:59.283812",
+    "2025-05-31T01:27:00.283812",
+    "2025-05-31T01:27:01.283812",
+    "2025-05-31T01:27:02.283812",
+    "2025-05-31T01:27:03.283812",
+    "2025-05-31T01:27:04.283812",
+    "2025-05-31T01:27:05.283812",
+    "2025-05-31T01:27:06.283812",
+    "2025-05-31T01:27:07.283812",
+    "2025-05-31T01:27:08.283812",
+    "2025-05-31T01:27:09.283812",
+    "2025-05-31T01:27:10.283812",
+    "2025-05-31T01:27:11.283812",
+    "2025-05-31T01:27:12.283812",
+    "2025-05-31T01:27:13.283812",
+    "2025-05-31T01:27:14.283812",
+    "2025-05-31T01:27:15.283812",
+    "2025-05-31T01:27:16.283812",
+    "2025-05-31T01:27:17.283812"
+  ],
+  "metrics": [
+    {
+      "service_cpu_usage": 45.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 47.9987501562407,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 50.99000499880968,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 53.96628794841595,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 56.92015984770367,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 59.84423755527137,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 62.73121239968037,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 65.57386844732709,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 68.36510053851904,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 71.09793204667382,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 73.76553231625218,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 76.36123373583955,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 78.87854840370213,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 81.31118434416237,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 83.65306123426146,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 85.89832560140005,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 88.04136545397137,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 90.07682430841757,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 91.999614577649,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 93.80493028736242,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 95.4882590884738,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 97.04539353564101,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 98.47244160368614,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 99.76583641563127,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 99.5578456095409,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 98.24174211800252,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 96.79256199893241,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 95.21392744790987,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 93.50978422917541,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 91.68439181327528,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 89.74231273060322,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 87.68840116745066,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 85.52779083306908,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 83.26588212807022,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 80.90832864623738,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 78.46102304348501,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 75.93008230928785,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 73.32183247739296,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 70.64279281402979,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 67.8996595231399,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 65.0992890093543,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 62.24868074055266,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 59.35495975283895,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 56.42535884166162,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 53.46720048359203,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 50.48787853394623,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 47.49483974599743,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 44.495565157971086,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 41.497551394345194,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 38.5082919281935,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 35.535258351405105,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 32.585881699596015,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 29.667533878390124,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 26.787509237494238,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 23.95300633862281,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 21.17110996284241,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 18.448773402308852,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 15.792801080658036,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 13.209831545490397,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 10.706320875459378,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 8.288526543436866,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 5.9624917760899585,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 3.7340304489615725,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 1.6087125548092729,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -0.40814971847570014,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -2.3115152655717033,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -4.096626663864615,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -5.759022064526796,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -7.294546344815291,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -8.69936149371501,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -9.969956204967293,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -11.103154653506941,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -12.096124433370967,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -12.946383637238334,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -13.65180705990582,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -14.21063151019419,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -14.621460218007869,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -14.88326632553277,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -14.995395453846047,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -14.95756733852268,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -14.76987653015044,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -14.432792158002798,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -13.947156757459943,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -13.31418416410925,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -12.535456479788309,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -11.612920118154399,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -10.548880939663952,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -9.34599848812227,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -8.007279343209184,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -6.536069605595522,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -4.936046533434077,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -3.211209351129341,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -1.3658692533592287,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 0.5953613706663372,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 2.6675804657764832,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 4.845608563424278,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 7.124001727660701,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 9.497065162139439,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 11.958867444141745,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 14.503255350044496,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 17.12386923517456,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 19.814158929608418,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 22.567400110185837,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 25.376711107815563,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 28.23507010806445,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 31.135332702036465,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 34.07024974367425,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 37.032485468848996,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 40.01463583095022,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 43.00924700714659,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 46.008834029060985,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 49.00589949129332,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 51.992952291029624,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 54.96252635189743,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 57.90719928526894,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 60.8196109423667,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 63.692481810802676,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 66.51863120956801,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 69.2909952369959,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 72.00264442683707,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 74.64680106831648,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 77.21685614688067,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 79.70638586329201,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 82.10916768978144,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 84.41919592312735,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 86.63069669578582,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 88.73814240755256,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 90.73626554168467,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 92.6200718309492,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 94.38485274069033,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 96.02619723771387,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 97.54000281557293,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 98.92248574869762,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 99.13031002537761,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 97.7690698518519,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 96.27593448529683,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 94.65463598651904,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 92.90922675740941,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 91.04406941204925,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 89.06382587244681,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 86.97344571616009,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 84.77815380493101,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 82.48343722525155,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 80.09503157350571,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 77.6189066199653,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 75.06125138747308,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 72.42845868210935,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 69.7271091145054,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 66.96395465174466,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 64.14590174096112,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 61.27999404681796,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 58.373394846014854,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 55.433369122826015,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 52.4672654104237,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 49.48249742337208,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 46.486525527201465,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 43.48683809138048,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 40.490932772291444,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 37.50629777299486,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 34.54039312662122,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 31.60063205017297,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 28.694362415343456,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 25.828848382663583,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 23.011252244884293,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 20.248616524974437,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 17.547846373480716,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 14.915692309248161,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 12.358733346637816,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 9.883360551417818,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 7.4957610664270735,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 5.20190264694012,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 3.0075187443874594,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 0.9180941757122767,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -1.0611485858149496,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -2.925262464060026,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -4.669588145139219,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -6.289765723276968,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -7.781745598300212,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -9.14179859752942,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -10.366525296768394,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -11.452864517094469,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -12.398100976211271,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -13.199872075240709,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -13.856173803989492,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -14.365365749931069,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -14.726175198382645,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -14.937700313629005,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -14.99941239304221,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -14.911157188562719,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -14.67315529223935,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -14.28600158486389,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -13.750663749079045,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -13.06847985067569,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -12.241154994125338,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -11.27075706070696,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -10.15971153988054,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -8.910795466826922,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -7.527130481305708,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -6.012175025181978,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -4.369715698122526,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -2.6038577930686237,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": -0.7190150351420002,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 1.2801014503697985,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 3.388494913372657,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 5.600895468239081,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 7.911773265778002,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 10.315352314977297,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 12.805624919973905,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 15.376366696164155,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 18.021152127923912,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 20.733370629051592,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 23.50624306579028,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 26.33283870113236,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 29.206092518051946,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 32.11882287836828,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 35.06374947310144,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 38.03351151945249,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 41.02068615892796,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 44.01780701061952,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 47.0173828332682,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 50.011916249466495,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 52.993922485196535,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 55.955948077868044,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 58.89058950609233,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 61.79051169463047,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 64.64846634826159,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 67.4573100687454,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 70.21002220959846,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 72.89972242405327,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 75.51968786234242,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 78.06336997532199,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 80.52441088243339,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 82.89665926309432,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 85.17418573179614,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 87.35129765847987,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 89.42255339714691,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 91.38277588713962,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 93.22706559309725,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 94.95081275124238,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 96.54970889138974,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 98.01975760587811,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 99.3572845385077,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 100.0,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 99.95927160834835,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 98.68747032843025,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 97.28147833258508,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 95.74480986857606,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 94.08130580728165,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 92.29512404251898,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 90.39072909847454,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 88.37288097071855,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    },
+    {
+      "service_cpu_usage": 86.24662322869563,
+      "service_memory_usage": 200.0,
+      "service_response_time": 50.0,
+      "service_request_count_total": 100.0
+    }
+  ],
+  "fault_periods": [
+    {
+      "start": "2025-05-31T01:22:18.283812",
+      "end": "2025-05-31T01:27:17.283812",
+      "type": "cpu",
+      "pattern": "oscillating"
+    }
+  ]
+}

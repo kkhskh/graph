@@ -1,0 +1,54 @@
+{
+  "created_at": "2025-05-31T01:23:50.512942",
+  "splits": {
+    "train": [],
+    "validation": [],
+    "test": []
+  },
+  "experiment_groups": {
+    "cpu": {
+      "train": [
+        "cpu_experiment_1.json",
+        "cpu_experiment_2.json"
+      ],
+      "validation": [
+        "cpu_experiment_3.json"
+      ],
+      "test": [
+        "cpu_experiment_4.json",
+        "cpu_experiment_5.json"
+      ]
+    },
+    "memory": {
+      "train": [
+        "memory_experiment_1.json",
+        "memory_experiment_2.json"
+      ],
+      "validation": [
+        "memory_experiment_3.json"
+      ],
+      "test": [
+        "memory_experiment_4.json",
+        "memory_experiment_5.json"
+      ]
+    },
+    "network": {
+      "train": [
+        "network_experiment_1.json",
+        "network_experiment_2.json"
+      ],
+      "validation": [
+        "network_experiment_3.json"
+      ],
+      "test": [
+        "network_experiment_4.json",
+        "network_experiment_5.json"
+      ]
+    }
+  },
+  "distribution": {
+    "train": 0.4,
+    "validation": 0.2,
+    "test": 0.4
+  }
+}

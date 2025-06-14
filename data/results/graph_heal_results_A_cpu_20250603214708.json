@@ -1,0 +1,12 @@
+{
+  "graph_heal": {
+    "detection_accuracy": 0.0,
+    "localization_accuracy": 0.0,
+    "recovery_effectiveness": 0.0,
+    "recovery_time": [],
+    "cascade_prevention": 0.0,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "avg_recovery_time": 0
+  }
+}

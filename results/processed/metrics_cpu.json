@@ -1,0 +1,50 @@
+{
+  "propagation_metrics": {
+    "propagation_detection_accuracy": [
+      {
+        "graph": 0,
+        "statistical": 0
+      },
+      {
+        "graph": 0,
+        "statistical": 0
+      }
+    ],
+    "propagation_delay_estimation_error": [
+      {
+        "graph": 0,
+        "statistical": 0
+      },
+      {
+        "graph": 0,
+        "statistical": 0
+      }
+    ],
+    "cross_layer_fault_detection": [],
+    "cascading_failure_prediction": []
+  },
+  "localization_metrics": {
+    "root_cause_accuracy": [
+      {
+        "graph": 1.0,
+        "statistical": 1.0
+      },
+      {
+        "graph": 1.0,
+        "statistical": 1.0
+      }
+    ],
+    "localization_time": [
+      {
+        "graph": Infinity,
+        "statistical": Infinity
+      },
+      {
+        "graph": Infinity,
+        "statistical": Infinity
+      }
+    ],
+    "false_root_cause_rate": [],
+    "multi_hop_localization": []
+  }
+}

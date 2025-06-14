@@ -1,0 +1,252 @@
+1749164865 # HELP service_cpu_usage CPU usage in percentage
+1749164865 # TYPE service_cpu_usage gauge
+1749164865 service_cpu_usage 21.601550390103863
+1749164865 # HELP service_error_count_total Total number of errors
+1749164865 # TYPE service_error_count_total counter
+1749164865 service_error_count_total 1.0
+1749164865 # HELP service_error_count_created Total number of errors
+1749164865 # TYPE service_error_count_created gauge
+1749164865 service_error_count_created 1.7491647630366187e+09
+1749164865 # HELP service_circuit_breaker_state Circuit breaker state (0=closed, 1=open)
+1749164865 # TYPE service_circuit_breaker_state gauge
+1749164865 service_circuit_breaker_state 1.0
+1749164865 # HELP service_health Service health status (1.0=healthy, 0.7=warning, 0.4=degraded, 0.1=critical)
+1749164865 # TYPE service_health gauge
+1749164865 service_health 0.6
+1749164865 # HELP service_latency_seconds 95th percentile request latency in seconds
+1749164865 # TYPE service_latency_seconds gauge
+1749164865 service_latency_seconds 0.050735879699140694
+1749164865 # HELP service_memory_bytes Memory usage in bytes
+1749164865 # TYPE service_memory_bytes gauge
+1749164865 service_memory_bytes 1.5940245390843657e+08
+1749164870 # HELP service_cpu_usage CPU usage in percentage
+1749164870 # TYPE service_cpu_usage gauge
+1749164870 service_cpu_usage 12.058590487991243
+1749164870 # HELP service_error_count_total Total number of errors
+1749164870 # TYPE service_error_count_total counter
+1749164870 service_error_count_total 1.0
+1749164870 # HELP service_error_count_created Total number of errors
+1749164870 # TYPE service_error_count_created gauge
+1749164870 service_error_count_created 1.7491647630366187e+09
+1749164870 # HELP service_circuit_breaker_state Circuit breaker state (0=closed, 1=open)
+1749164870 # TYPE service_circuit_breaker_state gauge
+1749164870 service_circuit_breaker_state 1.0
+1749164870 # HELP service_health Service health status (1.0=healthy, 0.7=warning, 0.4=degraded, 0.1=critical)
+1749164870 # TYPE service_health gauge
+1749164870 service_health 0.6
+1749164870 # HELP service_latency_seconds 95th percentile request latency in seconds
+1749164870 # TYPE service_latency_seconds gauge
+1749164870 service_latency_seconds 0.053564373825485546
+1749164870 # HELP service_memory_bytes Memory usage in bytes
+1749164870 # TYPE service_memory_bytes gauge
+1749164870 service_memory_bytes 2.0245304121551114e+08
+1749164875 # HELP service_cpu_usage CPU usage in percentage
+1749164875 # TYPE service_cpu_usage gauge
+1749164875 service_cpu_usage 24.86100286440298
+1749164875 # HELP service_error_count_total Total number of errors
+1749164875 # TYPE service_error_count_total counter
+1749164875 service_error_count_total 1.0
+1749164875 # HELP service_error_count_created Total number of errors
+1749164875 # TYPE service_error_count_created gauge
+1749164875 service_error_count_created 1.7491647630366187e+09
+1749164875 # HELP service_circuit_breaker_state Circuit breaker state (0=closed, 1=open)
+1749164875 # TYPE service_circuit_breaker_state gauge
+1749164875 service_circuit_breaker_state 1.0
+1749164875 # HELP service_health Service health status (1.0=healthy, 0.7=warning, 0.4=degraded, 0.1=critical)
+1749164875 # TYPE service_health gauge
+1749164875 service_health 0.6
+1749164875 # HELP service_latency_seconds 95th percentile request latency in seconds
+1749164875 # TYPE service_latency_seconds gauge
+1749164875 service_latency_seconds 0.03185425385706508
+1749164875 # HELP service_memory_bytes Memory usage in bytes
+1749164875 # TYPE service_memory_bytes gauge
+1749164875 service_memory_bytes 1.3282593720065029e+08
+1749164880 # HELP service_cpu_usage CPU usage in percentage
+1749164880 # TYPE service_cpu_usage gauge
+1749164880 service_cpu_usage 15.241937604306274
+1749164880 # HELP service_error_count_total Total number of errors
+1749164880 # TYPE service_error_count_total counter
+1749164880 service_error_count_total 1.0
+1749164880 # HELP service_error_count_created Total number of errors
+1749164880 # TYPE service_error_count_created gauge
+1749164880 service_error_count_created 1.7491647630366187e+09
+1749164880 # HELP service_circuit_breaker_state Circuit breaker state (0=closed, 1=open)
+1749164880 # TYPE service_circuit_breaker_state gauge
+1749164880 service_circuit_breaker_state 1.0
+1749164880 # HELP service_health Service health status (1.0=healthy, 0.7=warning, 0.4=degraded, 0.1=critical)
+1749164880 # TYPE service_health gauge
+1749164880 service_health 0.6
+1749164880 # HELP service_latency_seconds 95th percentile request latency in seconds
+1749164880 # TYPE service_latency_seconds gauge
+1749164880 service_latency_seconds 0.04163889462023251
+1749164880 # HELP service_memory_bytes Memory usage in bytes
+1749164880 # TYPE service_memory_bytes gauge
+1749164880 service_memory_bytes 1.2619686285519943e+08
+1749164886 # HELP service_cpu_usage CPU usage in percentage
+1749164886 # TYPE service_cpu_usage gauge
+1749164886 service_cpu_usage 15.008708264443275
+1749164886 # HELP service_error_count_total Total number of errors
+1749164886 # TYPE service_error_count_total counter
+1749164886 service_error_count_total 1.0
+1749164886 # HELP service_error_count_created Total number of errors
+1749164886 # TYPE service_error_count_created gauge
+1749164886 service_error_count_created 1.7491647630366187e+09
+1749164886 # HELP service_circuit_breaker_state Circuit breaker state (0=closed, 1=open)
+1749164886 # TYPE service_circuit_breaker_state gauge
+1749164886 service_circuit_breaker_state 1.0
+1749164886 # HELP service_health Service health status (1.0=healthy, 0.7=warning, 0.4=degraded, 0.1=critical)
+1749164886 # TYPE service_health gauge
+1749164886 service_health 0.6
+1749164886 # HELP service_latency_seconds 95th percentile request latency in seconds
+1749164886 # TYPE service_latency_seconds gauge
+1749164886 service_latency_seconds 0.06572734431079819
+1749164886 # HELP service_memory_bytes Memory usage in bytes
+1749164886 # TYPE service_memory_bytes gauge
+1749164886 service_memory_bytes 1.3773706965407366e+08
+1749164891 # HELP service_cpu_usage CPU usage in percentage
+1749164891 # TYPE service_cpu_usage gauge
+1749164891 service_cpu_usage 23.765218262189812
+1749164891 # HELP service_error_count_total Total number of errors
+1749164891 # TYPE service_error_count_total counter
+1749164891 service_error_count_total 1.0
+1749164891 # HELP service_error_count_created Total number of errors
+1749164891 # TYPE service_error_count_created gauge
+1749164891 service_error_count_created 1.7491647630366187e+09
+1749164891 # HELP service_circuit_breaker_state Circuit breaker state (0=closed, 1=open)
+1749164891 # TYPE service_circuit_breaker_state gauge
+1749164891 service_circuit_breaker_state 1.0
+1749164891 # HELP service_health Service health status (1.0=healthy, 0.7=warning, 0.4=degraded, 0.1=critical)
+1749164891 # TYPE service_health gauge
+1749164891 service_health 0.6
+1749164891 # HELP service_latency_seconds 95th percentile request latency in seconds
+1749164891 # TYPE service_latency_seconds gauge
+1749164891 service_latency_seconds 0.07843257004268947
+1749164891 # HELP service_memory_bytes Memory usage in bytes
+1749164891 # TYPE service_memory_bytes gauge
+1749164891 service_memory_bytes 1.7963452849174732e+08
+1749164896 # HELP service_cpu_usage CPU usage in percentage
+1749164896 # TYPE service_cpu_usage gauge
+1749164896 service_cpu_usage 15.101336560149374
+1749164896 # HELP service_error_count_total Total number of errors
+1749164896 # TYPE service_error_count_total counter
+1749164896 service_error_count_total 1.0
+1749164896 # HELP service_error_count_created Total number of errors
+1749164896 # TYPE service_error_count_created gauge
+1749164896 service_error_count_created 1.7491647630366187e+09
+1749164896 # HELP service_circuit_breaker_state Circuit breaker state (0=closed, 1=open)
+1749164896 # TYPE service_circuit_breaker_state gauge
+1749164896 service_circuit_breaker_state 1.0
+1749164896 # HELP service_health Service health status (1.0=healthy, 0.7=warning, 0.4=degraded, 0.1=critical)
+1749164896 # TYPE service_health gauge
+1749164896 service_health 0.6
+1749164896 # HELP service_latency_seconds 95th percentile request latency in seconds
+1749164896 # TYPE service_latency_seconds gauge
+1749164896 service_latency_seconds 0.07497847452971015
+1749164896 # HELP service_memory_bytes Memory usage in bytes
+1749164896 # TYPE service_memory_bytes gauge
+1749164896 service_memory_bytes 1.622199004009577e+08
+1749164901 # HELP service_cpu_usage CPU usage in percentage
+1749164901 # TYPE service_cpu_usage gauge
+1749164901 service_cpu_usage 23.162069788931436
+1749164901 # HELP service_error_count_total Total number of errors
+1749164901 # TYPE service_error_count_total counter
+1749164901 service_error_count_total 1.0
+1749164901 # HELP service_error_count_created Total number of errors
+1749164901 # TYPE service_error_count_created gauge
+1749164901 service_error_count_created 1.7491647630366187e+09
+1749164901 # HELP service_circuit_breaker_state Circuit breaker state (0=closed, 1=open)
+1749164901 # TYPE service_circuit_breaker_state gauge
+1749164901 service_circuit_breaker_state 1.0
+1749164901 # HELP service_health Service health status (1.0=healthy, 0.7=warning, 0.4=degraded, 0.1=critical)
+1749164901 # TYPE service_health gauge
+1749164901 service_health 0.6
+1749164901 # HELP service_latency_seconds 95th percentile request latency in seconds
+1749164901 # TYPE service_latency_seconds gauge
+1749164901 service_latency_seconds 0.038632689530329556
+1749164901 # HELP service_memory_bytes Memory usage in bytes
+1749164901 # TYPE service_memory_bytes gauge
+1749164901 service_memory_bytes 1.5537887904632115e+08
+1749164906 # HELP service_cpu_usage CPU usage in percentage
+1749164906 # TYPE service_cpu_usage gauge
+1749164906 service_cpu_usage 12.702251692447724
+1749164906 # HELP service_error_count_total Total number of errors
+1749164906 # TYPE service_error_count_total counter
+1749164906 service_error_count_total 1.0
+1749164906 # HELP service_error_count_created Total number of errors
+1749164906 # TYPE service_error_count_created gauge
+1749164906 service_error_count_created 1.7491647630366187e+09
+1749164906 # HELP service_circuit_breaker_state Circuit breaker state (0=closed, 1=open)
+1749164906 # TYPE service_circuit_breaker_state gauge
+1749164906 service_circuit_breaker_state 1.0
+1749164906 # HELP service_health Service health status (1.0=healthy, 0.7=warning, 0.4=degraded, 0.1=critical)
+1749164906 # TYPE service_health gauge
+1749164906 service_health 0.6
+1749164906 # HELP service_latency_seconds 95th percentile request latency in seconds
+1749164906 # TYPE service_latency_seconds gauge
+1749164906 service_latency_seconds 0.06506524815713424
+1749164906 # HELP service_memory_bytes Memory usage in bytes
+1749164906 # TYPE service_memory_bytes gauge
+1749164906 service_memory_bytes 1.9865809395988867e+08
+1749164911 # HELP service_cpu_usage CPU usage in percentage
+1749164911 # TYPE service_cpu_usage gauge
+1749164911 service_cpu_usage 12.933812451932539
+1749164911 # HELP service_error_count_total Total number of errors
+1749164911 # TYPE service_error_count_total counter
+1749164911 service_error_count_total 1.0
+1749164911 # HELP service_error_count_created Total number of errors
+1749164911 # TYPE service_error_count_created gauge
+1749164911 service_error_count_created 1.7491647630366187e+09
+1749164911 # HELP service_circuit_breaker_state Circuit breaker state (0=closed, 1=open)
+1749164911 # TYPE service_circuit_breaker_state gauge
+1749164911 service_circuit_breaker_state 1.0
+1749164911 # HELP service_health Service health status (1.0=healthy, 0.7=warning, 0.4=degraded, 0.1=critical)
+1749164911 # TYPE service_health gauge
+1749164911 service_health 0.6
+1749164911 # HELP service_latency_seconds 95th percentile request latency in seconds
+1749164911 # TYPE service_latency_seconds gauge
+1749164911 service_latency_seconds 0.07453119547004422
+1749164911 # HELP service_memory_bytes Memory usage in bytes
+1749164911 # TYPE service_memory_bytes gauge
+1749164911 service_memory_bytes 1.8951990576585674e+08
+1749164916 # HELP service_cpu_usage CPU usage in percentage
+1749164916 # TYPE service_cpu_usage gauge
+1749164916 service_cpu_usage 14.021235674645938
+1749164916 # HELP service_error_count_total Total number of errors
+1749164916 # TYPE service_error_count_total counter
+1749164916 service_error_count_total 2.0
+1749164916 # HELP service_error_count_created Total number of errors
+1749164916 # TYPE service_error_count_created gauge
+1749164916 service_error_count_created 1.7491647630366187e+09
+1749164916 # HELP service_circuit_breaker_state Circuit breaker state (0=closed, 1=open)
+1749164916 # TYPE service_circuit_breaker_state gauge
+1749164916 service_circuit_breaker_state 1.0
+1749164916 # HELP service_health Service health status (1.0=healthy, 0.7=warning, 0.4=degraded, 0.1=critical)
+1749164916 # TYPE service_health gauge
+1749164916 service_health 0.6
+1749164916 # HELP service_latency_seconds 95th percentile request latency in seconds
+1749164916 # TYPE service_latency_seconds gauge
+1749164916 service_latency_seconds 0.03620470867186774
+1749164916 # HELP service_memory_bytes Memory usage in bytes
+1749164916 # TYPE service_memory_bytes gauge
+1749164916 service_memory_bytes 1.3700334928239107e+08
+1749164921 # HELP service_cpu_usage CPU usage in percentage
+1749164921 # TYPE service_cpu_usage gauge
+1749164921 service_cpu_usage 23.342532011443424
+1749164921 # HELP service_error_count_total Total number of errors
+1749164921 # TYPE service_error_count_total counter
+1749164921 service_error_count_total 2.0
+1749164921 # HELP service_error_count_created Total number of errors
+1749164921 # TYPE service_error_count_created gauge
+1749164921 service_error_count_created 1.7491647630366187e+09
+1749164921 # HELP service_circuit_breaker_state Circuit breaker state (0=closed, 1=open)
+1749164921 # TYPE service_circuit_breaker_state gauge
+1749164921 service_circuit_breaker_state 1.0
+1749164921 # HELP service_health Service health status (1.0=healthy, 0.7=warning, 0.4=degraded, 0.1=critical)
+1749164921 # TYPE service_health gauge
+1749164921 service_health 0.6
+1749164921 # HELP service_latency_seconds 95th percentile request latency in seconds
+1749164921 # TYPE service_latency_seconds gauge
+1749164921 service_latency_seconds 0.045463232668076815
+1749164921 # HELP service_memory_bytes Memory usage in bytes
+1749164921 # TYPE service_memory_bytes gauge
+1749164921 service_memory_bytes 1.641573523864529e+08

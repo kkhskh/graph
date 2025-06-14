@@ -1,0 +1,188 @@
+{
+  "cpu_experiment": {
+    "threshold_only": {
+      "works": true,
+      "detections": 64,
+      "impact": "Limited detection - misses complex patterns",
+      "details": "Threshold detector catches obvious faults but misses subtle anomalies",
+      "metrics": {
+        "precision": 100.0,
+        "recall": 75.29411764705883,
+        "f1_score": 85.90604026845638,
+        "accuracy": 92.92929292929293
+      }
+    },
+    "graph_heal_only": {
+      "works": true,
+      "detections": 45,
+      "impact": "More false positives - lacks context",
+      "details": "GRAPH-HEAL generates more false alarms without threshold baseline",
+      "metrics": {
+        "precision": 100.0,
+        "recall": 40.909090909090914,
+        "f1_score": 58.06451612903226,
+        "accuracy": 78.11447811447812
+      }
+    },
+    "no_localization": {
+      "works": true,
+      "detections": 109,
+      "impact": "No root cause - cannot localize faults",
+      "details": "System detects anomalies but cannot identify fault sources",
+      "metrics": {
+        "precision": 100.0,
+        "recall": 75.29411764705883,
+        "f1_score": 85.90604026845638,
+        "accuracy": 92.92929292929293
+      }
+    },
+    "no_recovery": {
+      "works": true,
+      "detections": 109,
+      "impact": "No healing - detects but can't recover",
+      "details": "System identifies faults but cannot perform automated recovery",
+      "metrics": {
+        "precision": 100.0,
+        "recall": 75.29411764705883,
+        "f1_score": 85.90604026845638,
+        "accuracy": 92.92929292929293
+      }
+    },
+    "no_detection_localization": {
+      "works": false,
+      "detections": 0,
+      "impact": "System completely fails",
+      "details": "Neither detects nor recovers from faults",
+      "metrics": {
+        "precision": 0,
+        "recall": 0,
+        "f1_score": 0,
+        "accuracy": 100.0
+      }
+    }
+  },
+  "memory_experiment": {
+    "threshold_only": {
+      "works": true,
+      "detections": 37,
+      "impact": "Limited detection - misses complex patterns",
+      "details": "Threshold detector catches obvious faults but misses subtle anomalies",
+      "metrics": {
+        "precision": 100.0,
+        "recall": 88.09523809523809,
+        "f1_score": 93.67088607594937,
+        "accuracy": 97.17514124293785
+      }
+    },
+    "graph_heal_only": {
+      "works": true,
+      "detections": 36,
+      "impact": "More false positives - lacks context",
+      "details": "GRAPH-HEAL generates more false alarms without threshold baseline",
+      "metrics": {
+        "precision": 100.0,
+        "recall": 63.1578947368421,
+        "f1_score": 77.41935483870968,
+        "accuracy": 88.13559322033898
+      }
+    },
+    "no_localization": {
+      "works": true,
+      "detections": 73,
+      "impact": "No root cause - cannot localize faults",
+      "details": "System detects anomalies but cannot identify fault sources",
+      "metrics": {
+        "precision": 100.0,
+        "recall": 88.09523809523809,
+        "f1_score": 93.67088607594937,
+        "accuracy": 97.17514124293785
+      }
+    },
+    "no_recovery": {
+      "works": true,
+      "detections": 73,
+      "impact": "No healing - detects but can't recover",
+      "details": "System identifies faults but cannot perform automated recovery",
+      "metrics": {
+        "precision": 100.0,
+        "recall": 88.09523809523809,
+        "f1_score": 93.67088607594937,
+        "accuracy": 97.17514124293785
+      }
+    },
+    "no_detection_localization": {
+      "works": false,
+      "detections": 0,
+      "impact": "System completely fails",
+      "details": "Neither detects nor recovers from faults",
+      "metrics": {
+        "precision": 0,
+        "recall": 0,
+        "f1_score": 0,
+        "accuracy": 100.0
+      }
+    }
+  },
+  "network_experiment": {
+    "threshold_only": {
+      "works": true,
+      "detections": 78,
+      "impact": "Limited detection - misses complex patterns",
+      "details": "Threshold detector catches obvious faults but misses subtle anomalies",
+      "metrics": {
+        "precision": 100.0,
+        "recall": 84.78260869565217,
+        "f1_score": 91.76470588235294,
+        "accuracy": 94.09282700421942
+      }
+    },
+    "graph_heal_only": {
+      "works": true,
+      "detections": 22,
+      "impact": "More false positives - lacks context",
+      "details": "GRAPH-HEAL generates more false alarms without threshold baseline",
+      "metrics": {
+        "precision": 100.0,
+        "recall": 18.181818181818183,
+        "f1_score": 30.76923076923077,
+        "accuracy": 58.22784810126582
+      }
+    },
+    "no_localization": {
+      "works": true,
+      "detections": 100,
+      "impact": "No root cause - cannot localize faults",
+      "details": "System detects anomalies but cannot identify fault sources",
+      "metrics": {
+        "precision": 100.0,
+        "recall": 84.78260869565217,
+        "f1_score": 91.76470588235294,
+        "accuracy": 94.09282700421942
+      }
+    },
+    "no_recovery": {
+      "works": true,
+      "detections": 100,
+      "impact": "No healing - detects but can't recover",
+      "details": "System identifies faults but cannot perform automated recovery",
+      "metrics": {
+        "precision": 100.0,
+        "recall": 84.78260869565217,
+        "f1_score": 91.76470588235294,
+        "accuracy": 94.09282700421942
+      }
+    },
+    "no_detection_localization": {
+      "works": false,
+      "detections": 0,
+      "impact": "System completely fails",
+      "details": "Neither detects nor recovers from faults",
+      "metrics": {
+        "precision": 0,
+        "recall": 0,
+        "f1_score": 0,
+        "accuracy": 100.0
+      }
+    }
+  }
+}

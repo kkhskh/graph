@@ -1,0 +1,33 @@
+{
+  "experiment_id": 1,
+  "fault_type": "memory",
+  "timestamp": "2025-06-02T02:41:20.041544",
+  "ground_truth": {
+    "fault_source": "service_a",
+    "propagated_services": [],
+    "propagation_delays": {},
+    "cross_layer_faults": [],
+    "cascading_failures": [],
+    "root_causes": [],
+    "detection_times": [],
+    "multi_hop_paths": []
+  },
+  "graph_predictions": {
+    "propagated_services": [],
+    "propagation_delays": {},
+    "cross_layer_faults": [],
+    "cascading_failures": [],
+    "root_causes": [],
+    "localization_times": [],
+    "multi_hop_paths": []
+  },
+  "statistical_predictions": {
+    "propagated_services": [],
+    "propagation_delays": {},
+    "cross_layer_faults": [],
+    "cascading_failures": [],
+    "root_causes": [],
+    "localization_times": [],
+    "multi_hop_paths": []
+  }
+}

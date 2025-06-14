@@ -1,0 +1,38 @@
+{
+  "nodes": [
+    "service_a",
+    "service_b",
+    "service_c",
+    "service_d"
+  ],
+  "edges": [
+    [
+      "service_a",
+      "service_b",
+      {
+        "weight": 1.0
+      }
+    ],
+    [
+      "service_a",
+      "service_c",
+      {
+        "weight": 1.0
+      }
+    ],
+    [
+      "service_b",
+      "service_d",
+      {
+        "weight": 1.0
+      }
+    ],
+    [
+      "service_c",
+      "service_d",
+      {
+        "weight": 1.0
+      }
+    ]
+  ]
+}

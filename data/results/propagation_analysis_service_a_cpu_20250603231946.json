@@ -1,0 +1,10 @@
+{
+  "propagation_metrics": {
+    "detection_accuracy": 0.0,
+    "propagation_delay": [],
+    "cross_layer_detection": 0.0,
+    "false_positives": 0.0,
+    "false_negatives": 0.0,
+    "avg_propagation_delay": 0
+  }
+}
