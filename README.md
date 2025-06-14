@@ -145,4 +145,20 @@ See [LICENSE](LICENSE) for details.
 
 ---
 
-**GRAPH-HEAL**: Advancing the science of resilient, self-healing microservice systems. 
+**GRAPH-HEAL**: Advancing the science of resilient, self-healing microservice systems.
+
+---
+
+## Developer Workflow
+
+Common quality-and-convenience targets are exposed via the project `Makefile`.
+
+| Target | What it does | Typical use |
+|--------|--------------|-------------|
+| `make quick` | Ultra-fast sanity run (`pytest -q`). | While in a feature branch – verify nothing is blatantly broken. |
+| `make test`  | Full test suite + coverage gate (`pytest --cov …`). | Pre-push check; CI uses the same invocation. |
+| `make stress`| Executes an end-to-end capture with the heavy **stress** preset, then runs evaluation **and** the baseline-vs-GraphHeal plotting script. | Overnight or pre-release system validation; produces `plots/*.png`. |
+
+All targets are declared `.PHONY`, so they always run fresh.  Feel free to extend the `Makefile` with additional local helpers.
+
+--- 
