@@ -35,6 +35,7 @@ build-backend = "setuptools.build_meta"
 packages = [
   "graph_heal",
   "graph_heal.scripts",
+  "graph_heal.tools",
 ]
 
 py-modules = [
