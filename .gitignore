@@ -1,0 +1,8 @@
+# Generic
+*.py[cod]
+__pycache__/
+.DS_Store
+.coverage
+graph-heal/venv*/
+graph-heal/graph-heal-env/
+graph-heal/venv/
