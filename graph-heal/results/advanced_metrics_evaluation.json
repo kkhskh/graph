@@ -1,0 +1,68 @@
+{
+  "timestamp": "2025-06-02T22:00:28.861147",
+  "metrics": {
+    "cross_layer_detection": {},
+    "cascading_failure_prediction": {
+      "mean": 1.0,
+      "std": 0.0,
+      "min": 1.0,
+      "max": 1.0,
+      "count": 3
+    },
+    "false_root_cause_rate": {},
+    "multi_hop_localization": {},
+    "propagation_accuracy": {
+      "mean": 0.0,
+      "std": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "count": 3
+    },
+    "propagation_delay": {},
+    "root_cause_accuracy": {
+      "mean": 1.0,
+      "std": 0.0,
+      "min": 1.0,
+      "max": 1.0,
+      "count": 3
+    },
+    "dependency_aware_detection": {
+      "mean": 1.0,
+      "std": 0.0,
+      "min": 1.0,
+      "max": 1.0,
+      "count": 3
+    },
+    "localization_time": {
+      "mean": 17969.333333333332,
+      "std": 12706.237453401469,
+      "min": 0.0,
+      "max": 26954.0,
+      "count": 3
+    },
+    "dependency_aware_precision": {
+      "mean": 1.0,
+      "std": 0.0,
+      "min": 1.0,
+      "max": 1.0,
+      "count": 3
+    },
+    "isolation_effectiveness": {
+      "mean": 0.0,
+      "std": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "count": 3
+    },
+    "propagation_analysis": {},
+    "intelligent_recovery": {},
+    "detection_comparison": {},
+    "evaluation_time": {
+      "mean": 0.9627630000000001,
+      "std": 0.3785660735045689,
+      "min": 0.461154,
+      "max": 1.375616,
+      "count": 3
+    }
+  }
+}

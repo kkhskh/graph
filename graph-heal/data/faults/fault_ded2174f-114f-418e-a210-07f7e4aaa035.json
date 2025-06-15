@@ -1,0 +1,11 @@
+{
+  "id": "ded2174f-114f-418e-a210-07f7e4aaa035",
+  "type": "latency",
+  "target": "service_a",
+  "params": {
+    "duration": 30,
+    "latency": 1000
+  },
+  "timestamp": 1748719910.9169421,
+  "status": "active"
+}

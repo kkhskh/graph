@@ -1,0 +1,484 @@
+{
+  "service_a": [
+    {
+      "timestamp": 1748890677.284761,
+      "service_cpu_usage": 33.33870122781647,
+      "service_response_time": 0.2333548049112659,
+      "service_request_count_total": 423,
+      "health": "healthy",
+      "availability": 100
+    },
+    {
+      "timestamp": 1748890678.284761,
+      "service_cpu_usage": 25.755091084324356,
+      "service_response_time": 0.20302036433729742,
+      "service_request_count_total": 416,
+      "health": "healthy",
+      "availability": 100
+    },
+    {
+      "timestamp": 1748890679.284761,
+      "service_cpu_usage": 30.644013590872987,
+      "service_response_time": 0.22257605436349195,
+      "service_request_count_total": 300,
+      "health": "healthy",
+      "availability": 100
+    },
+    {
+      "timestamp": 1748890680.284761,
+      "service_cpu_usage": 24.66979721058602,
+      "service_response_time": 0.1986791888423441,
+      "service_request_count_total": 459,
+      "health": "healthy",
+      "availability": 100
+    },
+    {
+      "timestamp": 1748890681.284761,
+      "service_cpu_usage": 25.522399711696615,
+      "service_response_time": 0.20208959884678646,
+      "service_request_count_total": 291,
+      "health": "healthy",
+      "availability": 100
+    },
+    {
+      "timestamp": 1748890682.284761,
+      "service_cpu_usage": 52.2430903109947,
+      "service_response_time": 0.3089723612439788,
+      "service_request_count_total": 159,
+      "health": "healthy",
+      "availability": 100
+    },
+    {
+      "timestamp": 1748890683.284761,
+      "service_cpu_usage": 45.392143313059286,
+      "service_response_time": 0.28156857325223716,
+      "service_request_count_total": 557,
+      "health": "healthy",
+      "availability": 100
+    },
+    {
+      "timestamp": 1748890684.284761,
+      "service_cpu_usage": 78.5067306069592,
+      "service_response_time": 0.4140269224278368,
+      "service_request_count_total": 304,
+      "health": "healthy",
+      "availability": 100
+    },
+    {
+      "timestamp": 1748890685.284761,
+      "service_cpu_usage": 50.753254899794484,
+      "service_response_time": 0.3030130195991779,
+      "service_request_count_total": 466,
+      "health": "healthy",
+      "availability": 100
+    },
+    {
+      "timestamp": 1748890686.284761,
+      "service_cpu_usage": 67.55166519183425,
+      "service_response_time": 0.370206660767337,
+      "service_request_count_total": 967,
+      "health": "healthy",
+      "availability": 100
+    },
+    {
+      "timestamp": 1748890687.284761,
+      "service_cpu_usage": 49.506874569857885,
+      "service_response_time": 0.29802749827943154,
+      "service_request_count_total": 582,
+      "health": "healthy",
+      "availability": 100
+    },
+    {
+      "timestamp": 1748890688.284761,
+      "service_cpu_usage": 59.141388744302134,
+      "service_response_time": 0.3365655549772085,
+      "service_request_count_total": 102,
+      "health": "healthy",
+      "availability": 100
+    },
+    {
+      "timestamp": 1748890689.284761,
+      "service_cpu_usage": 79.52195802463478,
+      "service_response_time": 0.41808783209853917,
+      "service_request_count_total": 894,
+      "health": "healthy",
+      "availability": 100
+    },
+    {
+      "timestamp": 1748890690.284761,
+      "service_cpu_usage": 62.2868007620854,
+      "service_response_time": 0.3491472030483416,
+      "service_request_count_total": 875,
+      "health": "healthy",
+      "availability": 100
+    },
+    {
+      "timestamp": 1748890691.284761,
+      "service_cpu_usage": 73.74218277073975,
+      "service_response_time": 0.39496873108295905,
+      "service_request_count_total": 170,
+      "health": "healthy",
+      "availability": 100
+    },
+    {
+      "timestamp": 1748890692.284761,
+      "service_cpu_usage": 82.68330471308445,
+      "service_response_time": 0.43073321885233784,
+      "service_request_count_total": 573,
+      "health": "unhealthy",
+      "availability": 97.31669528691555
+    },
+    {
+      "timestamp": 1748890693.284761,
+      "service_cpu_usage": 81.65077425763532,
+      "service_response_time": 0.42660309703054133,
+      "service_request_count_total": 777,
+      "health": "unhealthy",
+      "availability": 98.34922574236468
+    },
+    {
+      "timestamp": 1748890694.284761,
+      "service_cpu_usage": 82.9305944601568,
+      "service_response_time": 0.43172237784062717,
+      "service_request_count_total": 614,
+      "health": "unhealthy",
+      "availability": 97.0694055398432
+    },
+    {
+      "timestamp": 1748890695.284761,
+      "service_cpu_usage": 91.22995132691946,
+      "service_response_time": 0.46491980530767785,
+      "service_request_count_total": 724,
+      "health": "unhealthy",
+      "availability": 88.77004867308054
+    },
+    {
+      "timestamp": 1748890696.284761,
+      "service_cpu_usage": 86.1230527514642,
+      "service_response_time": 0.4444922110058568,
+      "service_request_count_total": 267,
+      "health": "unhealthy",
+      "availability": 93.8769472485358
+    },
+    {
+      "timestamp": 1748890697.284761,
+      "service_cpu_usage": 87.96857742739522,
+      "service_response_time": 0.45187430970958087,
+      "service_request_count_total": 596,
+      "health": "unhealthy",
+      "availability": 92.03142257260478
+    },
+    {
+      "timestamp": 1748890698.284761,
+      "service_cpu_usage": 81.26474976510329,
+      "service_response_time": 0.4250589990604132,
+      "service_request_count_total": 908,
+      "health": "unhealthy",
+      "availability": 98.73525023489671
+    },
+    {
+      "timestamp": 1748890699.284761,
+      "service_cpu_usage": 89.47865073000662,
+      "service_response_time": 0.4579146029200265,
+      "service_request_count_total": 172,
+      "health": "unhealthy",
+      "availability": 90.52134926999338
+    },
+    {
+      "timestamp": 1748890700.284761,
+      "service_cpu_usage": 86.6350642254718,
+      "service_response_time": 0.44654025690188714,
+      "service_request_count_total": 868,
+      "health": "unhealthy",
+      "availability": 93.3649357745282
+    },
+    {
+      "timestamp": 1748890701.284761,
+      "service_cpu_usage": 87.47784964133248,
+      "service_response_time": 0.4499113985653299,
+      "service_request_count_total": 301,
+      "health": "unhealthy",
+      "availability": 92.52215035866752
+    },
+    {
+      "timestamp": 1748890702.284761,
+      "service_cpu_usage": 86.22263854187842,
+      "service_response_time": 0.4448905541675138,
+      "service_request_count_total": 199,
+      "health": "unhealthy",
+      "availability": 93.77736145812158
+    },
+    {
+      "timestamp": 1748890703.284761,
+      "service_cpu_usage": 80.70096600706545,
+      "service_response_time": 0.42280386402826176,
+      "service_request_count_total": 837,
+      "health": "unhealthy",
+      "availability": 99.29903399293455
+    },
+    {
+      "timestamp": 1748890704.284761,
+      "service_cpu_usage": 85.40559650105334,
+      "service_response_time": 0.44162238600421333,
+      "service_request_count_total": 678,
+      "health": "unhealthy",
+      "availability": 94.59440349894666
+    },
+    {
+      "timestamp": 1748890705.284761,
+      "service_cpu_usage": 82.21910033125991,
+      "service_response_time": 0.4288764013250397,
+      "service_request_count_total": 168,
+      "health": "unhealthy",
+      "availability": 97.78089966874009
+    },
+    {
+      "timestamp": 1748890706.284761,
+      "service_cpu_usage": 92.44311404477875,
+      "service_response_time": 0.469772456179115,
+      "service_request_count_total": 851,
+      "health": "unhealthy",
+      "availability": 87.55688595522125
+    },
+    {
+      "timestamp": 1748890707.284761,
+      "service_cpu_usage": 94.40985157537231,
+      "service_response_time": 0.47763940630148927,
+      "service_request_count_total": 579,
+      "health": "unhealthy",
+      "availability": 85.59014842462769
+    },
+    {
+      "timestamp": 1748890708.284761,
+      "service_cpu_usage": 86.96079659898913,
+      "service_response_time": 0.44784318639595655,
+      "service_request_count_total": 632,
+      "health": "unhealthy",
+      "availability": 93.03920340101087
+    },
+    {
+      "timestamp": 1748890709.284761,
+      "service_cpu_usage": 90.52358468499533,
+      "service_response_time": 0.4620943387399813,
+      "service_request_count_total": 405,
+      "health": "unhealthy",
+      "availability": 89.47641531500467
+    },
+    {
+      "timestamp": 1748890710.284761,
+      "service_cpu_usage": 83.30804579377447,
+      "service_response_time": 0.43323218317509793,
+      "service_request_count_total": 581,
+      "health": "unhealthy",
+      "availability": 96.69195420622553
+    },
+    {
+      "timestamp": 1748890711.284761,
+      "service_cpu_usage": 88.78008386428577,
+      "service_response_time": 0.45512033545714314,
+      "service_request_count_total": 684,
+      "health": "unhealthy",
+      "availability": 91.21991613571423
+    },
+    {
+      "timestamp": 1748890712.284761,
+      "service_cpu_usage": 87.87106922694664,
+      "service_response_time": 0.4514842769077866,
+      "service_request_count_total": 557,
+      "health": "unhealthy",
+      "availability": 92.12893077305336
+    },
+    {
+      "timestamp": 1748890713.284761,
+      "service_cpu_usage": 86.52343968675143,
+      "service_response_time": 0.44609375874700574,
+      "service_request_count_total": 814,
+      "health": "unhealthy",
+      "availability": 93.47656031324857
+    },
+    {
+      "timestamp": 1748890714.284761,
+      "service_cpu_usage": 93.86298356531053,
+      "service_response_time": 0.4754519342612421,
+      "service_request_count_total": 906,
+      "health": "unhealthy",
+      "availability": 86.13701643468947
+    },
+    {
+      "timestamp": 1748890715.284761,
+      "service_cpu_usage": 87.39058580867666,
+      "service_response_time": 0.4495623432347067,
+      "service_request_count_total": 831,
+      "health": "unhealthy",
+      "availability": 92.60941419132334
+    },
+    {
+      "timestamp": 1748890716.284761,
+      "service_cpu_usage": 92.95711889830996,
+      "service_response_time": 0.4718284755932398,
+      "service_request_count_total": 195,
+      "health": "unhealthy",
+      "availability": 87.04288110169004
+    },
+    {
+      "timestamp": 1748890717.284761,
+      "service_cpu_usage": 94.37820996096013,
+      "service_response_time": 0.4775128398438405,
+      "service_request_count_total": 664,
+      "health": "unhealthy",
+      "availability": 85.62179003903987
+    },
+    {
+      "timestamp": 1748890718.284761,
+      "service_cpu_usage": 94.87108076057123,
+      "service_response_time": 0.47948432304228494,
+      "service_request_count_total": 945,
+      "health": "unhealthy",
+      "availability": 85.12891923942877
+    },
+    {
+      "timestamp": 1748890719.284761,
+      "service_cpu_usage": 94.38111169395826,
+      "service_response_time": 0.47752444677583306,
+      "service_request_count_total": 268,
+      "health": "unhealthy",
+      "availability": 85.61888830604174
+    },
+    {
+      "timestamp": 1748890720.284761,
+      "service_cpu_usage": 88.8194535873064,
+      "service_response_time": 0.45527781434922565,
+      "service_request_count_total": 700,
+      "health": "unhealthy",
+      "availability": 91.1805464126936
+    },
+    {
+      "timestamp": 1748890721.284761,
+      "service_cpu_usage": 92.02657839063622,
+      "service_response_time": 0.46810631356254484,
+      "service_request_count_total": 154,
+      "health": "unhealthy",
+      "availability": 87.97342160936378
+    },
+    {
+      "timestamp": 1748890722.284761,
+      "service_cpu_usage": 93.07420217664159,
+      "service_response_time": 0.47229680870656643,
+      "service_request_count_total": 367,
+      "health": "unhealthy",
+      "availability": 86.92579782335841
+    },
+    {
+      "timestamp": 1748890723.284761,
+      "service_cpu_usage": 89.78905135406399,
+      "service_response_time": 0.459156205416256,
+      "service_request_count_total": 109,
+      "health": "unhealthy",
+      "availability": 90.21094864593601
+    },
+    {
+      "timestamp": 1748890724.284761,
+      "service_cpu_usage": 85.71569304012448,
+      "service_response_time": 0.44286277216049796,
+      "service_request_count_total": 299,
+      "health": "unhealthy",
+      "availability": 94.28430695987552
+    },
+    {
+      "timestamp": 1748890725.284761,
+      "service_cpu_usage": 89.45678745294119,
+      "service_response_time": 0.45782714981176476,
+      "service_request_count_total": 253,
+      "health": "unhealthy",
+      "availability": 90.54321254705881
+    },
+    {
+      "timestamp": 1748890726.284761,
+      "service_cpu_usage": 80.64327982134071,
+      "service_response_time": 0.4225731192853629,
+      "service_request_count_total": 898,
+      "health": "unhealthy",
+      "availability": 99.35672017865929
+    },
+    {
+      "timestamp": 1748890727.284761,
+      "service_cpu_usage": 89.62621753772865,
+      "service_response_time": 0.45850487015091457,
+      "service_request_count_total": 525,
+      "health": "unhealthy",
+      "availability": 90.37378246227135
+    },
+    {
+      "timestamp": 1748890728.284761,
+      "service_cpu_usage": 88.48170343538332,
+      "service_response_time": 0.4539268137415333,
+      "service_request_count_total": 401,
+      "health": "unhealthy",
+      "availability": 91.51829656461668
+    },
+    {
+      "timestamp": 1748890729.284761,
+      "service_cpu_usage": 90.35331432933627,
+      "service_response_time": 0.46141325731734517,
+      "service_request_count_total": 726,
+      "health": "unhealthy",
+      "availability": 89.64668567066373
+    },
+    {
+      "timestamp": 1748890730.284761,
+      "service_cpu_usage": 91.05062216764374,
+      "service_response_time": 0.464202488670575,
+      "service_request_count_total": 665,
+      "health": "unhealthy",
+      "availability": 88.94937783235626
+    },
+    {
+      "timestamp": 1748890731.284761,
+      "service_cpu_usage": 82.61957082577486,
+      "service_response_time": 0.43047828330309945,
+      "service_request_count_total": 604,
+      "health": "unhealthy",
+      "availability": 97.38042917422514
+    },
+    {
+      "timestamp": 1748890732.284761,
+      "service_cpu_usage": 56.602467729918516,
+      "service_response_time": 0.3264098709196741,
+      "service_request_count_total": 313,
+      "health": "healthy",
+      "availability": 100
+    },
+    {
+      "timestamp": 1748890733.284761,
+      "service_cpu_usage": 49.23372136160236,
+      "service_response_time": 0.29693488544640945,
+      "service_request_count_total": 458,
+      "health": "healthy",
+      "availability": 100
+    },
+    {
+      "timestamp": 1748890734.284761,
+      "service_cpu_usage": 50.751495728228804,
+      "service_response_time": 0.30300598291291525,
+      "service_request_count_total": 589,
+      "health": "healthy",
+      "availability": 100
+    },
+    {
+      "timestamp": 1748890735.284761,
+      "service_cpu_usage": 58.951013139874775,
+      "service_response_time": 0.3358040525594991,
+      "service_request_count_total": 244,
+      "health": "healthy",
+      "availability": 100
+    },
+    {
+      "timestamp": 1748890736.284761,
+      "service_cpu_usage": 58.712011383026336,
+      "service_response_time": 0.33484804553210534,
+      "service_request_count_total": 259,
+      "health": "healthy",
+      "availability": 100
+    }
+  ]
+}

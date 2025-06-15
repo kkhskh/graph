@@ -1,0 +1,782 @@
+[
+  {
+    "timestamp": 1749679021,
+    "service_a": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:01Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 10,
+      "host_cpu": 0.5,
+      "host_memory": 32.1
+    },
+    "service_b": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:01Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.8,
+      "host_memory": 32.38
+    },
+    "service_c": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:01Z",
+      "health": 0.8,
+      "availability": 80,
+      "latency_ms": 78,
+      "host_cpu": 0.7236926957745193,
+      "host_memory": 0.24
+    },
+    "service_d": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:01Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.7,
+      "host_memory": 32.99
+    }
+  },
+  {
+    "timestamp": 1749679022,
+    "service_a": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:02Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 10,
+      "host_cpu": 0.5,
+      "host_memory": 32.1
+    },
+    "service_b": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:02Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.8,
+      "host_memory": 32.38
+    },
+    "service_c": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:02Z",
+      "health": 0.8,
+      "availability": 80,
+      "latency_ms": 78,
+      "host_cpu": 0.7236926957745193,
+      "host_memory": 0.24
+    },
+    "service_d": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:02Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.7,
+      "host_memory": 32.99
+    }
+  },
+  {
+    "timestamp": 1749679023,
+    "service_a": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:03Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 10,
+      "host_cpu": 0.5,
+      "host_memory": 32.1
+    },
+    "service_b": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:03Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.8,
+      "host_memory": 32.38
+    },
+    "service_c": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:03Z",
+      "health": 0.8,
+      "availability": 80,
+      "latency_ms": 78,
+      "host_cpu": 0.7236926957745193,
+      "host_memory": 0.24
+    },
+    "service_d": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:03Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.7,
+      "host_memory": 32.99
+    }
+  },
+  {
+    "timestamp": 1749679024,
+    "service_a": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:04Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 10,
+      "host_cpu": 0.5,
+      "host_memory": 32.1
+    },
+    "service_b": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:04Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.8,
+      "host_memory": 32.38
+    },
+    "service_c": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:04Z",
+      "health": 0.8,
+      "availability": 80,
+      "latency_ms": 78,
+      "host_cpu": 0.7236926957745193,
+      "host_memory": 0.24
+    },
+    "service_d": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:04Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.7,
+      "host_memory": 32.99
+    }
+  },
+  {
+    "timestamp": 1749679025,
+    "service_a": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:05Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 10,
+      "host_cpu": 0.5,
+      "host_memory": 32.1
+    },
+    "service_b": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:05Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.8,
+      "host_memory": 32.38
+    },
+    "service_c": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:05Z",
+      "health": 0.8,
+      "availability": 80,
+      "latency_ms": 78,
+      "host_cpu": 0.7236926957745193,
+      "host_memory": 0.24
+    },
+    "service_d": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:05Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.7,
+      "host_memory": 32.99
+    }
+  },
+  {
+    "timestamp": 1749679026,
+    "service_a": {
+      "phase": "fault",
+      "time_iso": "2025-06-11T21:57:06Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 10,
+      "host_cpu": 0.5,
+      "host_memory": 32.1
+    },
+    "service_b": {
+      "phase": "fault",
+      "time_iso": "2025-06-11T21:57:06Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.8,
+      "host_memory": 32.38
+    },
+    "service_c": {
+      "phase": "fault",
+      "time_iso": "2025-06-11T21:57:06Z",
+      "health": 0.8,
+      "availability": 80,
+      "latency_ms": 78,
+      "host_cpu": 0.7236926957745193,
+      "host_memory": 0.24
+    },
+    "service_d": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:06Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.7,
+      "host_memory": 32.99
+    }
+  },
+  {
+    "timestamp": 1749679027,
+    "service_a": {
+      "phase": "fault",
+      "time_iso": "2025-06-11T21:57:07Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 10,
+      "host_cpu": 0.5,
+      "host_memory": 32.1
+    },
+    "service_b": {
+      "phase": "fault",
+      "time_iso": "2025-06-11T21:57:07Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.8,
+      "host_memory": 32.38
+    },
+    "service_c": {
+      "phase": "fault",
+      "time_iso": "2025-06-11T21:57:07Z",
+      "health": 0.8,
+      "availability": 80,
+      "latency_ms": 78,
+      "host_cpu": 0.7236926957745193,
+      "host_memory": 0.24
+    },
+    "service_d": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:07Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.7,
+      "host_memory": 32.99
+    }
+  },
+  {
+    "timestamp": 1749679028,
+    "service_a": {
+      "phase": "fault",
+      "time_iso": "2025-06-11T21:57:08Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 10,
+      "host_cpu": 0.5,
+      "host_memory": 32.1
+    },
+    "service_b": {
+      "phase": "fault",
+      "time_iso": "2025-06-11T21:57:08Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.8,
+      "host_memory": 32.38
+    },
+    "service_c": {
+      "phase": "fault",
+      "time_iso": "2025-06-11T21:57:08Z",
+      "health": 0.8,
+      "availability": 80,
+      "latency_ms": 78,
+      "host_cpu": 0.7236926957745193,
+      "host_memory": 0.24
+    },
+    "service_d": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:08Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.7,
+      "host_memory": 32.99
+    }
+  },
+  {
+    "timestamp": 1749679029,
+    "service_a": {
+      "phase": "fault",
+      "time_iso": "2025-06-11T21:57:09Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 10,
+      "host_cpu": 0.5,
+      "host_memory": 32.1
+    },
+    "service_b": {
+      "phase": "fault",
+      "time_iso": "2025-06-11T21:57:09Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.8,
+      "host_memory": 32.38
+    },
+    "service_c": {
+      "phase": "fault",
+      "time_iso": "2025-06-11T21:57:09Z",
+      "health": 0.8,
+      "availability": 80,
+      "latency_ms": 78,
+      "host_cpu": 0.7236926957745193,
+      "host_memory": 0.24
+    },
+    "service_d": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:09Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.7,
+      "host_memory": 32.99
+    }
+  },
+  {
+    "timestamp": 1749679030,
+    "service_a": {
+      "phase": "fault",
+      "time_iso": "2025-06-11T21:57:10Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 10,
+      "host_cpu": 0.5,
+      "host_memory": 32.1
+    },
+    "service_b": {
+      "phase": "fault",
+      "time_iso": "2025-06-11T21:57:10Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.8,
+      "host_memory": 32.38
+    },
+    "service_c": {
+      "phase": "fault",
+      "time_iso": "2025-06-11T21:57:10Z",
+      "health": 0.8,
+      "availability": 80,
+      "latency_ms": 78,
+      "host_cpu": 0.7236926957745193,
+      "host_memory": 0.24
+    },
+    "service_d": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:10Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.7,
+      "host_memory": 32.99
+    }
+  },
+  {
+    "timestamp": 1749679031,
+    "service_a": {
+      "phase": "fault",
+      "time_iso": "2025-06-11T21:57:11Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 10,
+      "host_cpu": 0.5,
+      "host_memory": 32.1
+    },
+    "service_b": {
+      "phase": "fault",
+      "time_iso": "2025-06-11T21:57:11Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.8,
+      "host_memory": 32.38
+    },
+    "service_c": {
+      "phase": "fault",
+      "time_iso": "2025-06-11T21:57:11Z",
+      "health": 0.8,
+      "availability": 80,
+      "latency_ms": 78,
+      "host_cpu": 0.7236926957745193,
+      "host_memory": 0.24
+    },
+    "service_d": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:11Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.7,
+      "host_memory": 32.99
+    }
+  },
+  {
+    "timestamp": 1749679032,
+    "service_a": {
+      "phase": "fault",
+      "time_iso": "2025-06-11T21:57:12Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 10,
+      "host_cpu": 0.5,
+      "host_memory": 32.1
+    },
+    "service_b": {
+      "phase": "fault",
+      "time_iso": "2025-06-11T21:57:12Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.8,
+      "host_memory": 32.38
+    },
+    "service_c": {
+      "phase": "fault",
+      "time_iso": "2025-06-11T21:57:12Z",
+      "health": 0.8,
+      "availability": 80,
+      "latency_ms": 78,
+      "host_cpu": 0.7236926957745193,
+      "host_memory": 0.24
+    },
+    "service_d": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:12Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.7,
+      "host_memory": 32.99
+    }
+  },
+  {
+    "timestamp": 1749679033,
+    "service_a": {
+      "phase": "fault",
+      "time_iso": "2025-06-11T21:57:13Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 10,
+      "host_cpu": 0.5,
+      "host_memory": 32.1
+    },
+    "service_b": {
+      "phase": "fault",
+      "time_iso": "2025-06-11T21:57:13Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.8,
+      "host_memory": 32.38
+    },
+    "service_c": {
+      "phase": "fault",
+      "time_iso": "2025-06-11T21:57:13Z",
+      "health": 0.8,
+      "availability": 80,
+      "latency_ms": 78,
+      "host_cpu": 0.7236926957745193,
+      "host_memory": 0.24
+    },
+    "service_d": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:13Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.7,
+      "host_memory": 32.99
+    }
+  },
+  {
+    "timestamp": 1749679034,
+    "service_a": {
+      "phase": "fault",
+      "time_iso": "2025-06-11T21:57:14Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 10,
+      "host_cpu": 0.5,
+      "host_memory": 32.1
+    },
+    "service_b": {
+      "phase": "fault",
+      "time_iso": "2025-06-11T21:57:14Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.8,
+      "host_memory": 32.38
+    },
+    "service_c": {
+      "phase": "fault",
+      "time_iso": "2025-06-11T21:57:14Z",
+      "health": 0.8,
+      "availability": 80,
+      "latency_ms": 78,
+      "host_cpu": 0.7236926957745193,
+      "host_memory": 0.24
+    },
+    "service_d": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:14Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.7,
+      "host_memory": 32.99
+    }
+  },
+  {
+    "timestamp": 1749679035,
+    "service_a": {
+      "phase": "fault",
+      "time_iso": "2025-06-11T21:57:15Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 10,
+      "host_cpu": 0.5,
+      "host_memory": 32.1
+    },
+    "service_b": {
+      "phase": "fault",
+      "time_iso": "2025-06-11T21:57:15Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.8,
+      "host_memory": 32.38
+    },
+    "service_c": {
+      "phase": "fault",
+      "time_iso": "2025-06-11T21:57:15Z",
+      "health": 0.8,
+      "availability": 80,
+      "latency_ms": 78,
+      "host_cpu": 0.7236926957745193,
+      "host_memory": 0.24
+    },
+    "service_d": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:15Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.7,
+      "host_memory": 32.99
+    }
+  },
+  {
+    "timestamp": 1749679036,
+    "service_a": {
+      "phase": "recovery",
+      "time_iso": "2025-06-11T21:57:16Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 10,
+      "host_cpu": 0.5,
+      "host_memory": 32.1
+    },
+    "service_b": {
+      "phase": "recovery",
+      "time_iso": "2025-06-11T21:57:16Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.8,
+      "host_memory": 32.38
+    },
+    "service_c": {
+      "phase": "recovery",
+      "time_iso": "2025-06-11T21:57:16Z",
+      "health": 0.8,
+      "availability": 80,
+      "latency_ms": 78,
+      "host_cpu": 0.7236926957745193,
+      "host_memory": 0.24
+    },
+    "service_d": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:16Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.7,
+      "host_memory": 32.99
+    }
+  },
+  {
+    "timestamp": 1749679037,
+    "service_a": {
+      "phase": "recovery",
+      "time_iso": "2025-06-11T21:57:17Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 10,
+      "host_cpu": 0.5,
+      "host_memory": 32.1
+    },
+    "service_b": {
+      "phase": "recovery",
+      "time_iso": "2025-06-11T21:57:17Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.8,
+      "host_memory": 32.38
+    },
+    "service_c": {
+      "phase": "recovery",
+      "time_iso": "2025-06-11T21:57:17Z",
+      "health": 0.8,
+      "availability": 80,
+      "latency_ms": 78,
+      "host_cpu": 0.7236926957745193,
+      "host_memory": 0.24
+    },
+    "service_d": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:17Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.7,
+      "host_memory": 32.99
+    }
+  },
+  {
+    "timestamp": 1749679038,
+    "service_a": {
+      "phase": "recovery",
+      "time_iso": "2025-06-11T21:57:18Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 10,
+      "host_cpu": 0.5,
+      "host_memory": 32.1
+    },
+    "service_b": {
+      "phase": "recovery",
+      "time_iso": "2025-06-11T21:57:18Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.8,
+      "host_memory": 32.38
+    },
+    "service_c": {
+      "phase": "recovery",
+      "time_iso": "2025-06-11T21:57:18Z",
+      "health": 0.8,
+      "availability": 80,
+      "latency_ms": 78,
+      "host_cpu": 0.7236926957745193,
+      "host_memory": 0.24
+    },
+    "service_d": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:18Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.7,
+      "host_memory": 32.99
+    }
+  },
+  {
+    "timestamp": 1749679039,
+    "service_a": {
+      "phase": "recovery",
+      "time_iso": "2025-06-11T21:57:19Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 10,
+      "host_cpu": 0.5,
+      "host_memory": 32.1
+    },
+    "service_b": {
+      "phase": "recovery",
+      "time_iso": "2025-06-11T21:57:19Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.8,
+      "host_memory": 32.38
+    },
+    "service_c": {
+      "phase": "recovery",
+      "time_iso": "2025-06-11T21:57:19Z",
+      "health": 0.8,
+      "availability": 80,
+      "latency_ms": 78,
+      "host_cpu": 0.7236926957745193,
+      "host_memory": 0.24
+    },
+    "service_d": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:19Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.7,
+      "host_memory": 32.99
+    }
+  },
+  {
+    "timestamp": 1749679040,
+    "service_a": {
+      "phase": "recovery",
+      "time_iso": "2025-06-11T21:57:20Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 10,
+      "host_cpu": 0.5,
+      "host_memory": 32.1
+    },
+    "service_b": {
+      "phase": "recovery",
+      "time_iso": "2025-06-11T21:57:20Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.8,
+      "host_memory": 32.38
+    },
+    "service_c": {
+      "phase": "recovery",
+      "time_iso": "2025-06-11T21:57:20Z",
+      "health": 0.8,
+      "availability": 80,
+      "latency_ms": 78,
+      "host_cpu": 0.7236926957745193,
+      "host_memory": 0.24
+    },
+    "service_d": {
+      "phase": "baseline",
+      "time_iso": "2025-06-11T21:57:20Z",
+      "health": 1.0,
+      "availability": 100,
+      "latency_ms": 50,
+      "host_cpu": 0.7,
+      "host_memory": 32.99
+    }
+  }
+]

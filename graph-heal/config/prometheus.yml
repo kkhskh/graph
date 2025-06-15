@@ -1,0 +1,14 @@
+global:
+  scrape_interval: 1s
+  evaluation_interval: 1s
+
+scrape_configs:
+  - job_name: 'services'
+    static_configs:
+      - targets: ['localhost:5001', 'localhost:5002', 'localhost:5003', 'localhost:5004']
+    metrics_path: '/metrics'
+    metric_relabel_configs:
+      - source_labels: [__name__]
+        target_label: __name__
+        regex: 'service_(.*)'
+        replacement: '${1}' 
