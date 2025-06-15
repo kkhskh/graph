@@ -34,7 +34,6 @@ build-backend = "setuptools.build_meta"
 # Limit discovery to the *root* package directory only.  This prevents the
 # legacy `graph-heal/graph_heal` tree – which drags heavy dependencies – from
 # being shipped in the wheel built on GitHub CI.
-where = ["graph_heal"]
+where = ["."]
 include = ["graph_heal*"]
-# Legacy test helpers live in scripts/, we want them – leaving *exclude* empty
-exclude = [] 
+exclude = ["tests*", "scripts.test_*"] 
