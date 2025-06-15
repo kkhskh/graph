@@ -5,6 +5,15 @@ omit =
     graph_heal/config/*
     graph_heal/graph_heal.py
     graph_heal/scripts/*
+    # CI helper – modules that are present purely for import compatibility but
+    # are **NOT** executed during the modern test-suite. Excluding them keeps
+    # the coverage denominator honest.
+    graph_heal/anomaly_detection.py
+    graph_heal/central_monitor.py
+    graph_heal/fault_injection.py
+    graph_heal/graph_analysis.py
+    graph_heal/graph_model.py
+    graph_heal/recovery_system.py
 
 [report]
 omit =

@@ -17,28 +17,28 @@ from .improved_statistical_detector import StatisticalDetector
 # ``from graph_heal.anomaly_detection import …`` keep working.
 # ------------------------------------------------------------------
 
-import importlib, pkgutil, pathlib, sys
+# NOTE: We *deliberately* no longer auto-import every module that lives in the
+# nested legacy tree (``graph-heal/graph_heal``).  Some of those historical
+# files pull in heavy, optional runtime dependencies such as *pandas* or *scipy*
+# which are unnecessary for the trimmed-down unit-test suite shipped with the
+# OSS version of Graph-Heal.  Importing them would break lightweight CI
+# containers that only install the minimal dependency set declared in
+# ``pyproject.toml``.  
 
-_NESTED_ROOT = pathlib.Path(__file__).resolve().parent.parent / "graph-heal" / "graph_heal"
-
-if _NESTED_ROOT.exists():
-    # Discover all modules in the nested path and register them under the
-    # top-level ``graph_heal.*`` namespace so importers see a unified package.
-    for mod in pkgutil.walk_packages([str(_NESTED_ROOT)], prefix="graph_heal."):
-        if mod.name in sys.modules:
-            continue
-        try:
-            importlib.import_module(mod.name)
-        except Exception:
-            # Broken or placeholder module – skip.  Real ones will import fine.
-            pass
+# Projects that still rely on one of those legacy modules can simply extend
+# ``PYTHONPATH`` at runtime or perform an explicit ``import importlib; mod =
+# importlib.import_module('graph_heal.old_module')`` which will succeed as long
+# as the nested tree is reachable on the filesystem.
+#
+# This change keeps the public surface lean while avoiding spurious
+# ``ModuleNotFoundError: pandas`` type failures in continuous-integration.
 
 # ------------------------------------------------------------------
 # Legacy stub modules for tests that expect graph_heal.config and
 # graph_heal.monitoring but which are not part of the current API.
 # ------------------------------------------------------------------
 
-import types
+import sys, types
 
 if "graph_heal.config" not in sys.modules:
     cfg = types.ModuleType("graph_heal.config")

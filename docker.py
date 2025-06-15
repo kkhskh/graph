@@ -50,8 +50,11 @@ def from_env(*_, **__) -> _ClientStub:  # noqa: D401
 errors = types.ModuleType("docker.errors")
 errors.NotFound = _NotFound
 
+# Expose convenient alias matching real SDK
+DockerClient = _ClientStub
+
 # Ensure submodule is discoverable via ``import docker.errors``
 import sys as _sys
 _sys.modules[__name__ + ".errors"] = errors
 
-__all__ = ["from_env", "errors"] 
+__all__ = ["from_env", "errors", "DockerClient"] 
