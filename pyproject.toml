@@ -30,10 +30,22 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-[tool.setuptools.packages.find]
-# Limit discovery to the *root* package directory only.  This prevents the
-# legacy `graph-heal/graph_heal` tree – which drags heavy dependencies – from
-# being shipped in the wheel built on GitHub CI.
-where = ["."]
-include = ["graph_heal*"]
-exclude = ["tests*", "scripts.test_*"] 
+# Explicitly declare packages and single-file modules so the wheel built on CI
+# contains **exactly** what the test-suite imports.
+packages = [
+  "graph_heal",
+  "graph_heal.scripts",
+]
+
+py-modules = [
+  "graph_heal.service_graph",
+  "graph_heal.health_manager",
+  "graph_heal.improved_statistical_detector",
+  "graph_heal.anomaly_detection",
+  "graph_heal.recovery_system",
+  "graph_heal.graph_analysis",
+  "graph_heal.graph_model",
+  "graph_heal.central_monitor",
+  "graph_heal.fault_injection",
+  "graph_heal.service_monitor",
+] 
