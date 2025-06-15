@@ -90,4 +90,49 @@ if 'scipy' not in sys.modules:  # pragma: no cover – stub for CI
     # Attach sub-module and register
     _scipy.stats = _stats  # type: ignore[attr-defined]
     sys.modules['scipy'] = _scipy
-    sys.modules['scipy.stats'] = _stats 
+    sys.modules['scipy.stats'] = _stats
+
+# 3️⃣  Matplotlib – provide minimal pyplot stub so legacy visualisation helpers import without installing heavy GUI backend.
+if 'matplotlib' not in sys.modules:  # pragma: no cover
+    _mpl = _types.ModuleType('matplotlib')
+    _pyplot = _types.ModuleType('matplotlib.pyplot')
+
+    def _dummy(*_a, **_k):
+        return None
+
+    # Common pyplot functions referenced by scripts/tests
+    for _fname in ('figure', 'plot', 'show', 'savefig', 'close', 'subplots'):
+        setattr(_pyplot, _fname, _dummy)
+
+    _mpl.pyplot = _pyplot  # type: ignore[attr-defined]
+    sys.modules['matplotlib'] = _mpl
+    sys.modules['matplotlib.pyplot'] = _pyplot
+
+# 4️⃣  Seaborn – often used together with matplotlib.
+if 'seaborn' not in sys.modules:  # pragma: no cover
+    _sb = _types.ModuleType('seaborn')
+    _sb.scatterplot = _dummy  # type: ignore[attr-defined]
+    sys.modules['seaborn'] = _sb
+
+# 5️⃣  NetworkX – we already provide a lightweight stub inside service_graph but
+# heavy legacy modules may ``import networkx as nx`` directly before that file
+# is loaded. Register a global stub early to avoid ModuleNotFoundError.
+if 'networkx' not in sys.modules:  # pragma: no cover
+    class _DummyGraph:  # noqa: D401
+        def __init__(self):
+            self._edges = set()
+
+        def add_node(self, *_a, **_k):
+            pass
+
+        def add_edge(self, u, v, **_):
+            self._edges.add((u, v))
+
+        def has_edge(self, u, v):
+            return (u, v) in self._edges
+
+    _nx = _types.ModuleType('networkx')
+    _nx.DiGraph = _DummyGraph  # type: ignore[attr-defined]
+    _nx.descendants = lambda g, n: {v for u, v in getattr(g, '_edges', set()) if u == n}
+    _nx.simple_cycles = lambda g: []
+    sys.modules['networkx'] = _nx 
