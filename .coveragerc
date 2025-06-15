@@ -12,3 +12,4 @@ omit =
     */__init__.py 
     graph_heal/scripts/* 
     graph_heal/tools/* 
+    graph_heal/service_monitor.py
