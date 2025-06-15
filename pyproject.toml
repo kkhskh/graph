@@ -39,15 +39,4 @@ packages = [
 ]
 
 py-modules = [
-  "graph_heal.service_graph",
-  "graph_heal.health_manager",
-  "graph_heal.improved_statistical_detector",
-  "graph_heal.anomaly_detection",
-  "graph_heal.recovery_system",
-  "graph_heal.graph_analysis",
-  "graph_heal.graph_model",
-  "graph_heal.central_monitor",
-  "graph_heal.fault_injection",
-  "graph_heal.service_monitor",
-  "graph_heal.tools.host_fault",
 ] 
