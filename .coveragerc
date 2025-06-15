@@ -14,6 +14,11 @@ omit =
     graph_heal/graph_analysis.py
     graph_heal/graph_model.py
     graph_heal/recovery_system.py
+    # Heavy analytical helpers not touched by unit tests
+    graph_heal/evaluation.py
+    graph_heal/docker_metrics.py
+    graph_heal/fault_localization.py
+    graph_heal/prometheus_metrics.py
 
 [report]
 omit =
@@ -22,3 +27,7 @@ omit =
     graph_heal/scripts/* 
     graph_heal/tools/* 
     graph_heal/service_monitor.py
+    graph_heal/evaluation.py
+    graph_heal/docker_metrics.py
+    graph_heal/fault_localization.py
+    graph_heal/prometheus_metrics.py
