@@ -48,4 +48,5 @@ py-modules = [
   "graph_heal.central_monitor",
   "graph_heal.fault_injection",
   "graph_heal.service_monitor",
+  "graph_heal.tools.host_fault",
 ] 
