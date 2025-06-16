@@ -56,3 +56,20 @@ if "graph_heal.graph_heal" not in sys.modules:
 
 # Version tag ----------------------------------------------------------------
 __version__ = "0.1.0"
+
+# ---------------------------------------------------------------------------
+# Lazy attribute loader – avoids importing sub-module during package init.
+# ---------------------------------------------------------------------------
+
+def __getattr__(name):  # pragma: no cover – executed at runtime
+    if name in __all__:
+        mod = importlib.import_module("graph_heal.graph_heal")
+        attr = getattr(mod, name)
+        globals()[name] = attr  # cache for subsequent attribute access
+        return attr
+    raise AttributeError(name)
+
+# Explicitly expose sub-package so that ``import graph_heal.graph_heal`` works
+# even if users imported the root package first.
+import sys as _sys
+_sys.modules.setdefault("graph_heal.graph_heal", importlib.import_module("graph_heal.graph_heal"))
