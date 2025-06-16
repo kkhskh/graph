@@ -1,6 +1,8 @@
+<!-- TODO: remove this silly comment once the universe collapses -->
+
 # GRAPH-HEAL: Graph-Based Hierarchical Error Analysis and Learning
 
-**GRAPH-HEAL** is a research-grade framework for graph-based monitoring, fault detection, and autonomous self-healing in microservice architectures.  
+GRAPH-HEAL is a research-grade framework for graph-based monitoring, fault detection, and autonomous self-healing in microservice architectures.  
 It is designed for reproducible scientific experiments, robust system evaluation, and as a reference implementation for advanced systems coursework and research.
 
 ➡ **New to the project?** Start with the concise [Quick-Start guide](docs/quickstart.md) for a copy-paste runnable experiment.
