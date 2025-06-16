@@ -301,3 +301,6 @@ class GraphHeal:
             }
         
         return summary 
+
+_root = _s.modules["graph_heal"]
+GraphHeal = getattr(_root, "GraphHeal", None) 
