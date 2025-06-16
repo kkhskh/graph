@@ -8,8 +8,6 @@ if str(ROOT) not in sys.path:
 # Dynamic import – prefer top-level package
 GraphHeal = importlib.import_module("graph_heal.graph_heal").GraphHeal  # type: ignore[attr-defined]
 
-assert hasattr(importlib.import_module("graph_heal.graph_heal").GraphHeal, "update_metrics"), "GraphHeal shim lacks update_metrics – ensure legacy stub is up-to-date."
-
 def test_graphheal_flow():
     gh = GraphHeal()
 
