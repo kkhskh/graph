@@ -50,10 +50,6 @@ if "graph_heal.monitoring" not in sys.modules:
     _mon.GraphUpdater = _Dummy  # type: ignore[attr-defined]
     sys.modules["graph_heal.monitoring"] = _mon
 
-# Convenience re-export so ``import graph_heal.graph_heal as gh`` keeps working.
-if "graph_heal.graph_heal" not in sys.modules:
-    sys.modules["graph_heal.graph_heal"] = importlib.import_module("graph_heal")
-
 # Version tag ----------------------------------------------------------------
 __version__ = "0.1.0"
 
