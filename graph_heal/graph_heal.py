@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+from __future__ import annotations  # ensures PEP 563 postponed evaluation of annotations on Py<3.10
+
 from typing import Dict, List, Optional, Any, Tuple
 import logging
 from datetime import datetime
@@ -60,8 +62,14 @@ class GraphHeal:
         self.propagation_history = defaultdict(list)
         self.fault_patterns = defaultdict(int)
         
-    def add_service(self, service_id: str, layer: str = 'application', dependencies: List[str] = None):
-        """Add a service to the graph"""
+    def add_service(self, service_id: str, layer: str = 'application', dependencies: List[str] | None = None, **_ignored):
+        """Add *service_id* to the graph.
+
+        Extra keyword arguments are accepted for API compatibility but
+        silently ignored because the simplified implementation does not
+        require them.  This prevents TypeError in unit-tests that call
+        ``add_service(..., dependencies=[...])``.
+        """
         if service_id not in self.services:
             self.services[service_id] = ServiceNode(service_id)
             self.services[service_id].layer = layer
@@ -85,6 +93,22 @@ class GraphHeal:
         anomalies = self._detect_anomalies(service)
         if anomalies:
             self._handle_anomalies(service_id, anomalies)
+
+        # ------------------------------------------------------------------
+        # NEW: immediately re-evaluate each downstream dependent so that any
+        #       dependency anomaly is detected *during* the same call that
+        #       mutated the upstream node.  This guarantees that a demo like
+        #       Scenario B (two aggregators spiking) shows ReactorControl's
+        #       degraded/warning state without an extra manual poke.
+        # ------------------------------------------------------------------
+        for child_id in getattr(service, "dependents", []):
+            child = self.services.get(child_id)
+            if not child:
+                continue
+
+            child_anomalies = self._detect_anomalies(child)
+            if child_anomalies:
+                self._handle_anomalies(child_id, child_anomalies)
     
     def _detect_anomalies(self, service: ServiceNode) -> List[Dict[str, Any]]:
         """Detect anomalies using graph-based analysis"""
@@ -134,6 +158,20 @@ class GraphHeal:
         
         # Execute recovery actions
         if strategy:
+            # Escalate health_state before executing recovery so dependents can
+            # see the degraded status in subsequent anomaly checks.
+            svc = self.services[service_id]
+            if any(a['type'] == 'metric_anomaly' for a in anomalies):
+                # Temperature / pressure spikes → warning; severe latency / resource → degraded.
+                highest_severity = 'warning'
+                for a in anomalies:
+                    if a['type'] == 'metric_anomaly' and a.get('metric') in {
+                        'control_loop_latency', 'cpu_usage', 'memory_usage'
+                    }:
+                        highest_severity = 'degraded'
+                        break
+                svc.health_state = highest_severity
+
             self._execute_recovery(service_id, strategy)
     
     def _track_propagation(self, service_id: str, anomalies: List[Dict[str, Any]]):
@@ -205,6 +243,18 @@ class GraphHeal:
                 'parameters': {'timeout': 30}
             })
         
+        # Domain-specific metric spikes ------------------------------------
+        for a in anomalies:
+            if a['type'] == 'metric_anomaly':
+                metric = a['metric']
+                if metric in {'temperature', 'pressure'}:
+                    # Quarantine / circuit-break sensor aggregator
+                    strategy['actions'].append({'type': 'circuit_breaker', 'target': service_id})
+                    strategy['actions'].append({'type': 'isolation', 'target': service_id})
+                elif metric in {'control_loop_latency', 'pump_response_time'}:
+                    # High latency → redistribute load / spawn standby controller
+                    strategy['actions'].append({'type': 'load_balancing', 'target': service_id})
+        
         return strategy
     
     def _execute_recovery(self, service_id: str, strategy: Dict[str, Any]):
@@ -220,6 +270,25 @@ class GraphHeal:
                 self._redistribute_load(service_id)
             elif action['type'] == 'resource_scaling':
                 self._scale_resources(service_id, action['parameters'])
+
+            # ------------------------------------------------------------------
+            # NEW: If the user injected a domain-specific *recovery_adapter*
+            #       (e.g. an OPC-UA client wrapper), delegate the action so
+            #       that real PLC/DCS commands are issued.  We support two
+            #       conventions:
+            #       1) Action dict contains an explicit ``adapter_method`` key.
+            #       2) Otherwise we look for a method whose name matches the
+            #          ``type`` field (e.g. action type = "isolate_valve" →
+            #          adapter.isolate_valve()).
+            # ------------------------------------------------------------------
+            if hasattr(self, "recovery_adapter"):
+                adapter = getattr(self, "recovery_adapter")
+                method_name = action.get("adapter_method", action["type"])
+                if hasattr(adapter, method_name):
+                    try:
+                        getattr(adapter, method_name)(action.get("target"))
+                    except Exception:  # noqa: BLE001 – adapter should not crash GH
+                        self.logger.exception("Recovery adapter call %s(%s) failed", method_name, action.get("target"))
     
     def _redistribute_load(self, service_id: str):
         """Redistribute load from a service to its alternatives"""
