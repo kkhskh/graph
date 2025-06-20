@@ -1,0 +1,11 @@
+SensorGateway:
+  request_latency: 'histogram_quantile(0.95, sum(rate(http_request_duration_seconds_bucket{service="SensorGateway"}[1m])) by (le))'
+TempSensorAggregator:
+  temperature: 'avg_over_time(node_temperature_celsius{job="tempsensor"}[5m])'
+PressureSensorAggregator:
+  pressure: 'avg_over_time(node_pressure_bar{job="pressuresensor"}[5m])'
+ReactorControl:
+  control_loop_latency: 'avg_over_time(control_loop_duration_ms{job="reactor_control"}[1m])'
+CoolantPumpController:
+  flow_rate: 'rate(coolant_pump_flow_lps_total{pump="primary"}[1m])'
+  vibration: 'avg_over_time(pump_vibration_mm{pump="primary"}[5m])' 

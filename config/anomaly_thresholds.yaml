@@ -1,0 +1,5 @@
+temperature: 100.0
+pressure: 200.0
+control_loop_latency: 500.0
+flow_rate: 2500.0
+vibration: 0.05 

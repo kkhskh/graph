@@ -1,0 +1,10 @@
+# Minimal recovery strategies mapping
+isolation:
+  threshold: 0.8
+  timeout: 30
+circuit_breaker:
+  error_threshold: 5
+  timeout: 60
+load_balancing:
+  cpu_threshold: 70
+  memory_threshold: 70 
