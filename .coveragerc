@@ -1,6 +1,8 @@
 [run]
 branch = True
-source = graph_heal
+source =
+    graph_heal
+    graph-heal/graph_heal
 omit =
     graph_heal/config/*
     graph_heal/graph_heal.py

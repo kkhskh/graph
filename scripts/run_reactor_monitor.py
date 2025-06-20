@@ -202,9 +202,8 @@ def main():
             gh.recovery_adapter.close()  # type: ignore[attr-defined]
 
     # ---------------------------------------------------------------------------
-    # Monkey-patch GraphHeal so each metric anomaly produces an explicit log line
-    # that contains the token *metric_anomaly*.  This lets users `grep` for it in
-    # the live log without changing the core library.
+    # Monkey-patch GraphHeal so each *metric_anomaly* is logged.  Must run at
+    # import time before we start the monitor.
     # ---------------------------------------------------------------------------
     if not getattr(GraphHeal, "__ANOMALY_LOG_PATCHED__", False):
         _orig_handle = GraphHeal._handle_anomalies  # type: ignore[attr-defined]
@@ -212,8 +211,13 @@ def main():
         def _handle_anomalies_and_log(self, service_id, anomalies):  # type: ignore[override]
             for a in anomalies:
                 if a.get("type") == "metric_anomaly":
-                    _LOG.info("metric_anomaly service=%s metric=%s value=%s threshold=%s",
-                             service_id, a.get("metric"), a.get("value"), a.get("threshold"))
+                    _LOG.info(
+                        "metric_anomaly service=%s metric=%s value=%s threshold=%s",
+                        service_id,
+                        a.get("metric"),
+                        a.get("value"),
+                        a.get("threshold"),
+                    )
             return _orig_handle(self, service_id, anomalies)
 
         GraphHeal._handle_anomalies = _handle_anomalies_and_log  # type: ignore[assignment]

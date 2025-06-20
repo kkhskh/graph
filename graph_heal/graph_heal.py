@@ -93,7 +93,7 @@ class GraphHeal:
         anomalies = self._detect_anomalies(service)
         if anomalies:
             self._handle_anomalies(service_id, anomalies)
-
+    
         # ------------------------------------------------------------------
         # NEW: immediately re-evaluate each downstream dependent so that any
         #       dependency anomaly is detected *during* the same call that

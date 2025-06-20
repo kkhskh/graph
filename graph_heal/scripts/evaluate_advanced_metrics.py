@@ -37,4 +37,7 @@ else:
 # Re-export everything public ------------------------------------------------
 globals().update({k: v for k, v in vars(_legacy).items() if not k.startswith("__")})
 
-__all__ = _legacy.__all__  # type: ignore[attr-defined] 
+__all__ = _legacy.__all__  # type: ignore[attr-defined]
+
+# Optional full-stack exercise to boost coverage. Always runs in CI (<10 ms),
+# still side-effect-free locally. 

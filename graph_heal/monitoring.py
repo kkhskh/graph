@@ -120,6 +120,22 @@ class PrometheusServiceMonitor(ServiceMonitor):
             self._stop_event.wait(time_to_sleep)
 
     def _query(self, prom_query: str) -> Optional[float]:
+        # Quick path – recognise trivial *scalar(NUMBER)* expressions so that
+        # developers can demo Graph-Heal without a running Prometheus instance.
+        # This uses the same syntax accepted by Prometheus' expression browser
+        # and is exploited by scripts like ``run_reactor_monitor.py`` which
+        # intentionally inject a spike via "scalar(120)". Handling it here
+        # avoids the need for a network round-trip and works even if the
+        # provided ``prom_url`` is unreachable.
+        import re
+
+        match = re.fullmatch(r"scalar\(\s*([\d.]+)\s*\)", prom_query)
+        if match:
+            try:
+                return float(match.group(1))
+            except ValueError:  # malformed number – treat as missing metric
+                return None
+
         try:
             resp = requests.get(
                 f"{self.prom_url}/api/v1/query",
