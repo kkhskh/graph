@@ -1,0 +1,3 @@
+service,event,timestamp,fault_active
+TempSensorAggregator,detected,2.0,True
+PressureSensorAggregator,detected,3.0,True

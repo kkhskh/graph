@@ -1,0 +1,4 @@
+service,event,timestamp,fault_active
+TempSensorAggregator,detected,0.0,False
+PressureSensorAggregator,detected,0.0,False
+ReactorControl,detected,0.0,False

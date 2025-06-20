@@ -42,6 +42,7 @@ import time
 import yaml
 import re
 from typing import Optional
+import os
 
 # ---------------------------------------------------------------------------
 # Import *full* GraphHeal implementation – fall back to explicit file load if a
@@ -103,7 +104,7 @@ except ImportError:
 # ``_query`` method so the demo spike works even with the shadowed module.
 # ---------------------------------------------------------------------------
 
-if not getattr(PrometheusServiceMonitor, "__SCALAR_PATCHED__", False):
+if os.getenv("DEMO_MODE") and not getattr(PrometheusServiceMonitor, "__SCALAR_PATCHED__", False):
     _orig_query = PrometheusServiceMonitor._query  # type: ignore[attr-defined]
 
     def _query_with_scalar(self, prom_query: str) -> Optional[float]:  # type: ignore[override]
@@ -130,6 +131,41 @@ import graph_heal.monitoring as _gh_mon
 if getattr(_gh_mon, "requests", None) is None:
     _gh_mon.requests = object()  # type: ignore[attr-defined]
 
+# ---------------------------------------------------------------------------
+# Module-level anomaly logger – active before monitor starts
+# ---------------------------------------------------------------------------
+if not getattr(GraphHeal, "__ANOMALY_LOG_PATCHED__", False):
+    _orig_handle = GraphHeal._handle_anomalies  # type: ignore[attr-defined]
+
+    def _handle_anomalies_and_log(self, service_id, anomalies):  # type: ignore[override]
+        for a in anomalies:
+            logger = logging.getLogger("run-monitor")
+            if a.get("type") == "metric_anomaly":
+                now = time.time()
+                sample_ts = a.get("timestamp", now)
+                latency = now - sample_ts
+                logger.info(
+                    "metric_anomaly service=%s metric=%s value=%s threshold=%s Detection latency=%.3f",
+                    service_id,
+                    a.get("metric"),
+                    a.get("value"),
+                    a.get("threshold"),
+                    latency,
+                )
+            else:
+                logger.info(
+                    "anomaly type=%s service=%s metric=%s value=%s threshold=%s",
+                    a.get("type"),
+                    service_id,
+                    a.get("metric"),
+                    a.get("value"),
+                    a.get("threshold"),
+                )
+        return _orig_handle(self, service_id, anomalies)
+
+    GraphHeal._handle_anomalies = _handle_anomalies_and_log  # type: ignore[assignment]
+    GraphHeal.__ANOMALY_LOG_PATCHED__ = True
+
 _LOG = logging.getLogger("run-monitor")
 
 DEFAULT_METRIC_MAP = {
@@ -139,7 +175,8 @@ DEFAULT_METRIC_MAP = {
 }
 
 # Synthetic spike for immediate demo ------------------------------------------
-DEFAULT_METRIC_MAP["TempSensorAggregator"]["temperature"] = "scalar(120)"
+if os.getenv("DEMO_MODE"):
+    DEFAULT_METRIC_MAP["TempSensorAggregator"]["temperature"] = "scalar(120)"
 
 
 def parse_args():
@@ -158,7 +195,7 @@ def load_yaml(path: str | pathlib.Path) -> dict:
         return {}
     p = pathlib.Path(path)
     if p.is_dir():
-        return {}
+        raise FileNotFoundError(f"{p} is a directory, expected file")
     if p.exists():
         return yaml.safe_load(p.read_text()) or {}
     _LOG.warning("YAML file %s not found; using empty defaults", p)
@@ -171,6 +208,45 @@ def main():
 
     # ------------------------------------------------- build graph
     gh: GraphHeal = build_reactor_graph()
+
+    # -----------------------------------------------------------------  
+    # Safeguard – ensure the anomaly-logging patch is applied to the  
+    # *concrete* GraphHeal class returned by build_reactor_graph().  A  
+    # legacy stub may be loaded inside ``reactor_simulation`` even if we
+    # already patched the class imported above, so we repeat the monkey
+    # patch here if necessary.
+    # -----------------------------------------------------------------
+    if not getattr(gh.__class__, "__ANOMALY_LOG_PATCHED__", False):
+        _orig_handle_dyn = gh.__class__._handle_anomalies  # type: ignore[attr-defined]
+
+        def _handle_anomalies_and_log(self, service_id, anomalies):  # type: ignore[override]
+            for a in anomalies:
+                logger = logging.getLogger("run-monitor")
+                if a.get("type") == "metric_anomaly":
+                    now = time.time()
+                    sample_ts = a.get("timestamp", now)
+                    latency = now - sample_ts
+                    logger.info(
+                        "metric_anomaly service=%s metric=%s value=%s threshold=%s Detection latency=%.3f",
+                        service_id,
+                        a.get("metric"),
+                        a.get("value"),
+                        a.get("threshold"),
+                        latency,
+                    )
+                else:
+                    logger.info(
+                        "anomaly type=%s service=%s metric=%s value=%s threshold=%s",
+                        a.get("type"),
+                        service_id,
+                        a.get("metric"),
+                        a.get("value"),
+                        a.get("threshold"),
+                    )
+            return _orig_handle_dyn(self, service_id, anomalies)
+
+        gh.__class__._handle_anomalies = _handle_anomalies_and_log  # type: ignore[assignment]
+        gh.__class__.__ANOMALY_LOG_PATCHED__ = True
 
     # ------------------------------------------------- load configs
     gh.anomaly_thresholds.update(load_yaml(args.thresholds))
@@ -200,28 +276,6 @@ def main():
         monitor.stop()
         if hasattr(gh, "recovery_adapter"):
             gh.recovery_adapter.close()  # type: ignore[attr-defined]
-
-    # ---------------------------------------------------------------------------
-    # Monkey-patch GraphHeal so each *metric_anomaly* is logged.  Must run at
-    # import time before we start the monitor.
-    # ---------------------------------------------------------------------------
-    if not getattr(GraphHeal, "__ANOMALY_LOG_PATCHED__", False):
-        _orig_handle = GraphHeal._handle_anomalies  # type: ignore[attr-defined]
-
-        def _handle_anomalies_and_log(self, service_id, anomalies):  # type: ignore[override]
-            for a in anomalies:
-                if a.get("type") == "metric_anomaly":
-                    _LOG.info(
-                        "metric_anomaly service=%s metric=%s value=%s threshold=%s",
-                        service_id,
-                        a.get("metric"),
-                        a.get("value"),
-                        a.get("threshold"),
-                    )
-            return _orig_handle(self, service_id, anomalies)
-
-        GraphHeal._handle_anomalies = _handle_anomalies_and_log  # type: ignore[assignment]
-        GraphHeal.__ANOMALY_LOG_PATCHED__ = True
 
 
 if __name__ == "__main__":
